@@ -1,0 +1,692 @@
+{
+  "hskExams": [
+    {
+      "id": "hsk1-mock-na-01",
+      "track": "hsk",
+      "title": "HSK 1 Standard Reading Simulation (Non-audio)",
+      "titleVi": "Đề thi thử HSK 1 Chuẩn Quốc Tế (Phần Đọc Hiểu)",
+      "level": "HSK 1 (150 Từ vựng)",
+      "type": "hsk",
+      "durationMinutes": 17,
+      "totalQuestions": 5,
+      "isMiniMock": true,
+      "isOfficialSimulation": false,
+      "syllabusVersion": "hsk2.0",
+      "sections": [
+        {
+          "id": "sec-hsk1-r-01",
+          "skill": "reading",
+          "title": "HSK 1 阅读理解 (Reading Comprehension)",
+          "titleVi": "Phần Đọc Hiểu HSK 1: Nhận diện từ và câu",
+          "instructions": "Read each sentence and decide whether it matches the picture or meaning. Choose the best answer.",
+          "instructionsVi": "Đọc câu và chọn đáp án chính xác.",
+          "questions": [
+            {
+              "id": "hsk1-m-q1",
+              "number": 1,
+              "type": "mcq",
+              "prompt": "看图片选词语: 飞机 (fēijī - Máy bay)",
+              "promptVi": "Chọn nghĩa đúng của từ '飞机':",
+              "options": [
+                { "key": "A", "text": "Máy bay", "textVi": "Máy bay hàng không" },
+                { "key": "B", "text": "Xe đạp", "textVi": "Xe đạp" },
+                { "key": "C", "text": "Xe taxi", "textVi": "Taxi" },
+                { "key": "D", "text": "Tàu hỏa", "textVi": "Tàu hỏa" }
+              ],
+              "correctAnswer": "A",
+              "acceptedAnswers": ["A"],
+              "explanation": "飞机 (fēijī) nghĩa là máy bay (A).",
+              "explanationVi": "飞机 (fēijī) là máy bay. 飞 (bay) + 机 (máy móc)."
+            },
+            {
+              "id": "hsk1-m-q2",
+              "number": 2,
+              "type": "mcq",
+              "prompt": "今天星期几？(Hôm nay là thứ mấy?)",
+              "promptVi": "Chọn câu trả lời phù hợp nhất với câu hỏi:",
+              "options": [
+                { "key": "A", "text": "今天星期五。(Hôm nay là thứ Sáu)", "textVi": "Thứ Sáu" },
+                { "key": "B", "text": "他很好。(Anh ấy rất khỏe)", "textVi": "Khỏe" },
+                { "key": "C", "text": "在学校。(Ở trường học)", "textVi": "Ở trường" },
+                { "key": "D", "text": "五块钱。(Năm tệ)", "textVi": "Năm tệ" }
+              ],
+              "correctAnswer": "A",
+              "acceptedAnswers": ["A"],
+              "explanation": "Câu hỏi '今天星期几？' hỏi về các ngày trong tuần, câu trả lời phù hợp là '今天星期五。' (A).",
+              "explanationVi": "星期五 (thứ Sáu) trả lời cho câu hỏi 星期几."
+            },
+            {
+              "id": "hsk1-m-q3",
+              "number": 3,
+              "type": "mcq",
+              "prompt": "我和朋友去商店买_____。(Tôi và bạn đi cửa hàng mua _____)",
+              "promptVi": "Từ nào thích hợp điền vào chỗ trống đồ uống/hoa quả:",
+              "options": [
+                { "key": "A", "text": "苹果 (píngguǒ - quả táo)", "textVi": "Quả táo" },
+                { "key": "B", "text": "看书 (kànshū - đọc sách)", "textVi": "Đọc sách" },
+                { "key": "C", "text": "北京 (Běijīng - Bắc Kinh)", "textVi": "Bắc Kinh" },
+                { "key": "D", "text": "漂亮 (piàoliang - xinh đẹp)", "textVi": "Xinh đẹp" }
+              ],
+              "correctAnswer": "A",
+              "acceptedAnswers": ["A"],
+              "explanation": "Động từ '买' (mua) kết hợp với danh từ chỉ đồ vật/hoa quả là '苹果' (quả táo) (A).",
+              "explanationVi": "买苹果 (mua táo) là kết hợp ngữ nghĩa tự nhiên."
+            },
+            {
+              "id": "hsk1-m-q4",
+              "number": 4,
+              "type": "mcq",
+              "prompt": "李老师不在学校，她回家_____。(Cô Lý không ở trường, cô ấy về nhà _____)",
+              "promptVi": "Chọn trợ từ hoàn thành hành động:",
+              "options": [
+                { "key": "A", "text": "了 (le)", "textVi": "Trợ từ ngữ khí 了" },
+                { "key": "B", "text": "吗 (ma)", "textVi": "Trợ từ nghi vấn 吗" },
+                { "key": "C", "text": "的 (de)", "textVi": "Trợ từ kết cấu 的" },
+                { "key": "D", "text": "呢 (ne)", "textVi": "Trợ từ 呢" }
+              ],
+              "correctAnswer": "A",
+              "acceptedAnswers": ["A"],
+              "explanation": "Cô ấy về nhà rồi: '回家了' biểu thị sự thay đổi trạng thái hoặc hoàn tất (A).",
+              "explanationVi": "Trợ từ '了' đặt cuối câu diễn tả sự việc đã phát sinh/hoàn thành."
+            },
+            {
+              "id": "hsk1-m-q5",
+              "number": 5,
+              "type": "mcq",
+              "prompt": "桌子上有_____本书？(Trên bàn có _____ cuốn sách?)",
+              "promptVi": "Đại từ nghi vấn hỏi số lượng dưới 10:",
+              "options": [
+                { "key": "A", "text": "几 (jǐ - mấy)", "textVi": "Mấy (số lượng nhỏ)" },
+                { "key": "B", "text": "谁 (shéi - ai)", "textVi": "Ai" },
+                { "key": "C", "text": "哪儿 (nǎr - ở đâu)", "textVi": "Ở đâu" },
+                { "key": "D", "text": "怎么 (zěnme - thế nào)", "textVi": "Thế nào" }
+              ],
+              "correctAnswer": "A",
+              "acceptedAnswers": ["A"],
+              "explanation": "'几' đứng trước lượng từ '本' để hỏi số lượng sách: '几本书？' (A).",
+              "explanationVi": "几 + Lượng từ (本) + Danh từ (书) là cấu trúc chuẩn để hỏi số lượng."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hsk2-mock-na-01",
+      "track": "hsk",
+      "title": "HSK 2 Standard Reading Simulation (Non-audio)",
+      "titleVi": "Đề thi thử HSK 2 Chuẩn Quốc Tế (Phần Đọc Hiểu)",
+      "level": "HSK 2 (300 Từ vựng)",
+      "type": "hsk",
+      "durationMinutes": 22,
+      "totalQuestions": 5,
+      "isMiniMock": true,
+      "isOfficialSimulation": false,
+      "syllabusVersion": "hsk2.0",
+      "sections": [
+        {
+          "id": "sec-hsk2-r-01",
+          "skill": "reading",
+          "title": "HSK 2 阅读理解 (Reading Comprehension)",
+          "titleVi": "Phần Đọc Hiểu HSK 2",
+          "instructions": "Read the sentences and choose the most suitable word or answer.",
+          "instructionsVi": "Đọc câu và chọn từ hoặc đáp án chính xác.",
+          "questions": [
+            {
+              "id": "hsk2-m-q1",
+              "number": 1,
+              "type": "mcq",
+              "prompt": "从这里到火车站太远了，我们_____去吧。(Từ đây đến ga tàu quá xa, chúng ta _____ đi thôi)",
+              "promptVi": "Phương tiện giao thông nào phù hợp:",
+              "options": [
+                { "key": "A", "text": "坐出租车 (zuò chūzūchē - đi taxi)", "textVi": "Đi taxi" },
+                { "key": "B", "text": "跑步 (pǎobù - chạy bộ)", "textVi": "Chạy bộ" },
+                { "key": "C", "text": "游泳 (yóuyǒng - bơi lội)", "textVi": "Bơi lội" },
+                { "key": "D", "text": "唱歌 (chànggē - ca hát)", "textVi": "Hát hò" }
+              ],
+              "correctAnswer": "A",
+              "acceptedAnswers": ["A"],
+              "explanation": "Khoảng cách xa nên phương án hợp lý nhất là đi taxi '坐出租车' (A).",
+              "explanationVi": "太远了 (quá xa) nên giải pháp hợp lý là 坐出租车."
+            },
+            {
+              "id": "hsk2-m-q2",
+              "number": 2,
+              "type": "mcq",
+              "prompt": "虽然这件大衣很贵，_____质量非常好。(Tuy chiếc áo khoác này rất đắt, _____ chất lượng rất tốt)",
+              "promptVi": "Cặp liên từ đi cùng với 虽然 (suīrán):",
+              "options": [
+                { "key": "A", "text": "但是 (dànshì - nhưng)", "textVi": "Nhưng mà" },
+                { "key": "B", "text": "因为 (yīnwèi - bởi vì)", "textVi": "Bởi vì" },
+                { "key": "C", "text": "如果 (rúguǒ - nếu như)", "textVi": "Nếu như" },
+                { "key": "D", "text": "所以 (suǒyǐ - cho nên)", "textVi": "Cho nên" }
+              ],
+              "correctAnswer": "A",
+              "acceptedAnswers": ["A"],
+              "explanation": "Cặp liên từ chỉ sự tương phản nhượng bộ: 虽然... 但是... (A).",
+              "explanationVi": "虽然 (tuy rằng) đi cặp với 但是 (nhưng)."
+            },
+            {
+              "id": "hsk2-m-q3",
+              "number": 3,
+              "type": "mcq",
+              "prompt": "我的妹妹比我小三岁，她正在读_____。(Em gái kém tôi 3 tuổi, em ấy đang học _____)",
+              "promptVi": "Cụm từ chỉ cấp học phù hợp:",
+              "options": [
+                { "key": "A", "text": "小学 (xiǎoxué - tiểu học)", "textVi": "Tiểu học" },
+                { "key": "B", "text": "买菜 (mǎicài - mua rau)", "textVi": "Mua rau" },
+                { "key": "C", "text": "上班 (shàngbān - đi làm)", "textVi": "Đi làm" },
+                { "key": "D", "text": "晴天 (qíngtiān - trời nắng)", "textVi": "Trời nắng" }
+              ],
+              "correctAnswer": "A",
+              "acceptedAnswers": ["A"],
+              "explanation": "Đang học cấp bậc trường học: '读小学' (học tiểu học) (A).",
+              "explanationVi": "读小学 (học tiểu học) phù hợp với ngữ cảnh tuổi nhỏ."
+            },
+            {
+              "id": "hsk2-m-q4",
+              "number": 4,
+              "type": "mcq",
+              "prompt": "你看，外面的雪下得_____大啊！(Bạn xem kìa, tuyết ngoài kia rơi _____ to quá!)",
+              "promptVi": "Phó từ biểu thị cảm thán:",
+              "options": [
+                { "key": "A", "text": "真 (zhēn - thật là)", "textVi": "Thật là" },
+                { "key": "B", "text": "很 (hěn - rất)", "textVi": "Rất" },
+                { "key": "C", "text": "也 (yě - cũng)", "textVi": "Cũng" },
+                { "key": "D", "text": "都 (dōu - đều)", "textVi": "Đều" }
+              ],
+              "correctAnswer": "A",
+              "acceptedAnswers": ["A"],
+              "explanation": "Mẫu câu cảm thán đi với trợ từ 啊: '真...啊' -> '真大啊！' (A).",
+              "explanationVi": "真 + Tính từ + 啊 là ngữ khí cảm thán kinh điển HSK 2."
+            },
+            {
+              "id": "hsk2-m-q5",
+              "number": 5,
+              "type": "mcq",
+              "prompt": "请大家进房间的时候把手机_____。(Mọi người khi vào phòng xin hãy _____ điện thoại)",
+              "promptVi": "Động từ xử lý điện thoại phù hợp:",
+              "options": [
+                { "key": "A", "text": "关掉 (guāndiào - tắt đi)", "textVi": "Tắt nguồn" },
+                { "key": "B", "text": "喝了 (hē le - uống)", "textVi": "Uống" },
+                { "key": "C", "text": "穿上 (chuān shang - mặc vào)", "textVi": "Mặc" },
+                { "key": "D", "text": "吃了 (chī le - ăn)", "textVi": "Ăn" }
+              ],
+              "correctAnswer": "A",
+              "acceptedAnswers": ["A"],
+              "explanation": "Câu chữ 把 với thiết bị điện tử: '把手机关掉' (tắt điện thoại) (A).",
+              "explanationVi": "关掉 (tắt đi) đi cùng 手机 (điện thoại)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hsk3-mock-na-01",
+      "track": "hsk",
+      "title": "HSK 3 Standard Simulation (Reading & Writing Non-audio)",
+      "titleVi": "Đề thi thử HSK 3 Chuẩn Quốc Tế (Phần Đọc & Viết)",
+      "level": "HSK 3 (600 Từ vựng)",
+      "type": "hsk",
+      "durationMinutes": 35,
+      "totalQuestions": 6,
+      "isMiniMock": true,
+      "isOfficialSimulation": false,
+      "syllabusVersion": "hsk2.0",
+      "sections": [
+        {
+          "id": "sec-hsk3-r-01",
+          "skill": "reading",
+          "title": "HSK 3 阅读理解 (Reading)",
+          "titleVi": "Phần Đọc Hiểu HSK 3: Đoạn văn ngắn",
+          "instructions": "Read the passage and choose the best answer for each question.",
+          "instructionsVi": "Đọc bài và chọn đáp án chính xác.",
+          "passageText": "有些人认为，只有拥有很多钱才能获得幸福。其实，真正的快乐往往来自于生活中的简单小事：比如完成了一天的工作后和家人吃一顿温暖的晚餐，或者在周末的午后读一本自己喜欢的书。学会满足，是保持快乐的秘诀。",
+          "questions": [
+            {
+              "id": "hsk3-m-q1",
+              "number": 1,
+              "type": "mcq",
+              "prompt": "短文认为真正的快乐主要来自于什么？",
+              "promptVi": "Theo bài viết, niềm vui thực sự chủ yếu đến từ điều gì?",
+              "options": [
+                { "key": "A", "text": "拥有很多钱 (Có thật nhiều tiền)", "textVi": "Nhiều tiền" },
+                { "key": "B", "text": "生活中的简单小事 (Những điều bình dị nhỏ bé trong cuộc sống)", "textVi": "Điều giản dị" },
+                { "key": "C", "text": "去很远的地方旅游 (Đi du lịch thật xa)", "textVi": "Du lịch xa" },
+                { "key": "D", "text": "不工作 (Không làm việc)", "textVi": "Không làm việc" }
+              ],
+              "correctAnswer": "B",
+              "acceptedAnswers": ["B"],
+              "explanation": "Bài viết nêu: '其实，真正的快乐往往来自于生活中的简单小事' (B).",
+              "explanationVi": "Dẫn chứng: 真正的快乐往往来自于生活中的简单小事."
+            },
+            {
+              "id": "hsk3-m-q2",
+              "number": 2,
+              "type": "mcq",
+              "prompt": "作者认为保持快乐的秘诀是什么？",
+              "promptVi": "Tác giả cho rằng bí quyết để duy trì niềm vui là gì?",
+              "options": [
+                { "key": "A", "text": "经常换工作 (Thường xuyên đổi việc)", "textVi": "Đổi việc" },
+                { "key": "B", "text": "学会满足 (Học cách hài lòng/biết đủ)", "textVi": "Học cách biết đủ" },
+                { "key": "C", "text": "买昂贵的衣服 (Mua quần áo đắt tiền)", "textVi": "Mua đồ đắt tiền" },
+                { "key": "D", "text": "每天睡懒觉 (Ngủ nướng mỗi ngày)", "textVi": "Ngủ nướng" }
+              ],
+              "correctAnswer": "B",
+              "acceptedAnswers": ["B"],
+              "explanation": "Câu cuối khẳng định: '学会满足，是保持快乐的秘诀。' (B).",
+              "explanationVi": "Dẫn chứng câu cuối: 学会满足，是保持快乐的秘诀."
+            },
+            {
+              "id": "hsk3-m-q3",
+              "number": 3,
+              "type": "mcq",
+              "prompt": "选词填空: 他对这次面试非常重视，提前一个星期就_____准备了。",
+              "promptVi": "Chọn từ điền vào chỗ trống:",
+              "options": [
+                { "key": "A", "text": "开始 (kāishǐ - bắt đầu)", "textVi": "Bắt đầu" },
+                { "key": "B", "text": "结束 (jiéshù - kết thúc)", "textVi": "Kết thúc" },
+                { "key": "C", "text": "迟到 (chídào - đến muộn)", "textVi": "Đến muộn" },
+                { "key": "D", "text": "忘记 (wàngjì - quên)", "textVi": "Quên mất" }
+              ],
+              "correctAnswer": "A",
+              "acceptedAnswers": ["A"],
+              "explanation": "Bắt đầu chuẩn bị trước 1 tuần: '提前一个星期就开始准备了' (A).",
+              "explanationVi": "开始准备 (bắt đầu chuẩn bị)."
+            }
+          ]
+        },
+        {
+          "id": "sec-hsk3-w-01",
+          "skill": "writing",
+          "title": "HSK 3 书写 (Writing - Sentence Reorder)",
+          "titleVi": "Phần Viết HSK 3: Sắp xếp từ thành câu hoàn chỉnh",
+          "instructions": "Arrange the given words into a grammatically correct Chinese sentence.",
+          "instructionsVi": "Sắp xếp các từ thành câu đúng ngữ pháp tiếng Trung.",
+          "questions": [
+            {
+              "id": "hsk3-m-q4",
+              "number": 4,
+              "type": "hsk_sentence_reorder",
+              "prompt": "连词成句: 请把下列词语排列成句:",
+              "promptVi": "Sắp xếp câu:",
+              "reorderTokens": ["他", "把", "电脑", "修好了"],
+              "correctAnswer": "他 把 电脑 修好了",
+              "acceptedAnswers": ["他 把 电脑 修好了", "他把电脑修好了"],
+              "explanation": "Cấu trúc câu chữ 把: S (他) + 把 + O (电脑) + V (修好了) -> Anh ấy đã sửa xong máy tính.",
+              "explanationVi": "Cấu trúc câu chữ 把: S + 把 + O + V + Bổ ngữ kết quả."
+            },
+            {
+              "id": "hsk3-m-q5",
+              "number": 5,
+              "type": "hsk_sentence_reorder",
+              "prompt": "连词成句: 请把下列词语排列成句:",
+              "promptVi": "Sắp xếp câu:",
+              "reorderTokens": ["妹妹", "比", "跑得", "我", "快"],
+              "correctAnswer": "妹妹 比 我 跑得 快",
+              "acceptedAnswers": ["妹妹 比 我 跑得 快", "妹妹比我跑得快"],
+              "explanation": "Cấu trúc so sánh chữ 比 kèm bổ ngữ trạng thái: A + 比 + B + Động từ + 得 + Tính từ.",
+              "explanationVi": "Cấu trúc chuẩn: 妹妹比我跑得快。(Em gái chạy nhanh hơn tôi)."
+            },
+            {
+              "id": "hsk3-m-q6",
+              "number": 6,
+              "type": "hsk_sentence_reorder",
+              "prompt": "连词成句: 请把下列词语排列成句:",
+              "promptVi": "Sắp xếp câu:",
+              "reorderTokens": ["这件", "很", "衣服", "漂亮"],
+              "correctAnswer": "这件 衣服 很 漂亮",
+              "acceptedAnswers": ["这件 衣服 很 漂亮", "这件衣服很漂亮"],
+              "explanation": "Cụm danh từ chủ ngữ (这件衣服) + Phó từ chỉ mức độ (很) + Tính từ (漂亮).",
+              "explanationVi": "这件衣服很漂亮。(Chiếc áo này rất đẹp)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hsk4-mock-na-01",
+      "track": "hsk",
+      "title": "HSK 4 Intermediate Simulation (Reading & Writing Non-audio)",
+      "titleVi": "Đề thi thử HSK 4 Chuẩn Quốc Tế (Phần Đọc & Viết Trung Cấp)",
+      "level": "HSK 4 (1200 Từ vựng)",
+      "type": "hsk",
+      "durationMinutes": 40,
+      "totalQuestions": 6,
+      "isMiniMock": true,
+      "isOfficialSimulation": false,
+      "syllabusVersion": "hsk2.0",
+      "sections": [
+        {
+          "id": "sec-hsk4-r-01",
+          "skill": "reading",
+          "title": "HSK 4 阅读理解 (Reading Comprehension)",
+          "titleVi": "Phần Đọc Hiểu HSK 4: Đoạn văn & Ngữ cảnh",
+          "instructions": "Read the passage and choose the correct answer.",
+          "instructionsVi": "Đọc bài và chọn đáp án chính xác.",
+          "passageText": "养成一个良好的习惯往往需要坚持至少21天。很多人在开始阶段充满热情，但遇到一点困难就容易放弃。心理学研究表明，只要把大目标分解为每天触手可及的小任务，并给予自己适当的积极心理暗示，坚持下去就会变得容易很多。成功不是一朝一夕的事，而是日积月累的结果。",
+          "questions": [
+            {
+              "id": "hsk4-m-q1",
+              "number": 1,
+              "type": "mcq",
+              "prompt": "根据短文，如何才能更容易地坚持完成目标？",
+              "promptVi": "Theo đoạn văn, làm thế nào để kiên trì hoàn thành mục tiêu dễ dàng hơn?",
+              "options": [
+                { "key": "A", "text": "一次性制定极其宏大的计划", "textVi": "Đặt ngay kế hoạch cực kỳ vĩ mô" },
+                { "key": "B", "text": "把大目标分解为每天的小任务并积极暗示", "textVi": "Chia nhỏ mục tiêu lớn thành nhiệm vụ hàng ngày và tự khích lệ" },
+                { "key": "C", "text": "只在心情好的时候才去执行", "textVi": "Chỉ thực hiện khi tâm trạng tốt" },
+                { "key": "D", "text": "完全依靠别人的督促", "textVi": "Hoàn toàn phụ thuộc vào người khác thúc ép" }
+              ],
+              "correctAnswer": "B",
+              "acceptedAnswers": ["B"],
+              "explanation": "Đoạn văn nêu: '只要把大目标分解为每天触手可及的小任务，并给予自己适当的积极心理暗示，坚持下去就会变得容易很多' (B).",
+              "explanationVi": "Dẫn chứng: 把大目标分解为每天触手可及的小任务."
+            },
+            {
+              "id": "hsk4-m-q2",
+              "number": 2,
+              "type": "mcq",
+              "prompt": "作者认为成功的主要特征是什么？",
+              "promptVi": "Tác giả cho rằng đặc điểm cốt lõi của thành công là gì?",
+              "options": [
+                { "key": "A", "text": "必须拥有超人的运气", "textVi": "Phải có may mắn phi thường" },
+                { "key": "B", "text": "日积月累的坚持与努力", "textVi": "Sự kiên trì tích lũy từng ngày" },
+                { "key": "C", "text": "在21天内必定大功告成", "textVi": "Nhất định hoàn thành trong 21 ngày" },
+                { "key": "D", "text": "不需要付出任何代价", "textVi": "Không cần trả giá gì" }
+              ],
+              "correctAnswer": "B",
+              "acceptedAnswers": ["B"],
+              "explanation": "Câu cuối bài viết nhấn mạnh: '成功不是一朝一夕的事，而是日积月累的结果。' (B).",
+              "explanationVi": "Dẫn chứng câu cuối: 成功是日积月累的结果."
+            },
+            {
+              "id": "hsk4-m-q3",
+              "number": 3,
+              "type": "mcq",
+              "prompt": "选词填空: 无论遇到多么复杂的紧急情况，他总是能够保持冷静，从不_____慌张。",
+              "promptVi": "Chọn phó từ phủ định phù hợp với văn phong HSK 4:",
+              "options": [
+                { "key": "A", "text": "显得 (xiǎnde - lộ rõ ra/tỏ vẻ)", "textVi": "Lộ vẻ/tỏ ra" },
+                { "key": "B", "text": "以为 (yǐwéi - ngỡ rằng/tưởng là)", "textVi": "Tưởng rằng" },
+                { "key": "C", "text": "引起 (yǐnqǐ - gây ra/dẫn đến)", "textVi": "Gây ra" },
+                { "key": "D", "text": "符合 (fúhé - phù hợp)", "textVi": "Phù hợp" }
+              ],
+              "correctAnswer": "A",
+              "acceptedAnswers": ["A"],
+              "explanation": "'显得慌张' (lộ vẻ hoảng loạn): từ '显得' dùng để chỉ trạng thái biểu hiện bên ngoài (A).",
+              "explanationVi": "显得 (tỏ ra, có vẻ) + tính từ biểu cảm (慌张)."
+            }
+          ]
+        },
+        {
+          "id": "sec-hsk4-w-01",
+          "skill": "writing",
+          "title": "HSK 4 书写 (Writing - Sentence Reorder)",
+          "titleVi": "Phần Viết HSK 4: Sắp xếp câu hoàn chỉnh",
+          "instructions": "Arrange the given words into a grammatically correct Chinese sentence.",
+          "instructionsVi": "Sắp xếp các từ thành câu đúng ngữ pháp tiếng Trung.",
+          "questions": [
+            {
+              "id": "hsk4-m-q4",
+              "number": 4,
+              "type": "hsk_sentence_reorder",
+              "prompt": "连词成句: 请排列成句:",
+              "promptVi": "Sắp xếp câu bị động chữ 被:",
+              "reorderTokens": ["那个", "被", "玻璃杯", "不小心", "打碎了", "弟弟"],
+              "correctAnswer": "那个 玻璃杯 不小心 被 弟弟 打碎了",
+              "acceptedAnswers": [
+                "那个 玻璃杯 不小心 被 弟弟 打碎了",
+                "那个玻璃杯不小心被弟弟打碎了",
+                "那个 玻璃杯 被 弟弟 不小心 打碎了",
+                "那个玻璃杯被弟弟不小心打碎了"
+              ],
+              "explanation": "Cấu trúc câu bị động chữ 被: Chủ ngữ chịu tác động (那个玻璃杯) + [Phó từ] + 被 + Tác nhân (弟弟) + Động từ (打碎了).",
+              "explanationVi": "Cấu trúc câu chữ 被 kinh điển trong đề thi HSK 4."
+            },
+            {
+              "id": "hsk4-m-q5",
+              "number": 5,
+              "type": "hsk_sentence_reorder",
+              "prompt": "连词成句: 请排列成句:",
+              "promptVi": "Sắp xếp câu với liên từ 不管...都...:",
+              "reorderTokens": ["不管", "天气", "多么冷", "坚持", "他", "都", "晨跑"],
+              "correctAnswer": "不管 天气 多么冷 他 都 坚持 晨跑",
+              "acceptedAnswers": [
+                "不管 天气 多么冷 他 都 坚持 晨跑",
+                "不管天气多么冷他都坚持晨跑"
+              ],
+              "explanation": "Cặp liên từ: 不管... (cho dù thế nào) + S (他) + 都 (đều) + V (坚持晨跑).",
+              "explanationVi": "不管 + điều kiện vô điều kiện + 都 + hành động."
+            },
+            {
+              "id": "hsk4-m-q6",
+              "number": 6,
+              "type": "hsk_sentence_reorder",
+              "prompt": "连词成句: 请排列成句:",
+              "promptVi": "Sắp xếp câu:",
+              "reorderTokens": ["这道题", "详细地", "李老师", "给我们", "解释了一遍"],
+              "correctAnswer": "李老师 给我们 详细地 解释了一遍 这道题",
+              "acceptedAnswers": [
+                "李老师 给我们 详细地 解释了一遍 这道题",
+                "李老师详细地给我们解释了一遍这道题",
+                "李老师 给我们 这道题 详细地 解释了一遍",
+                "李老师详细地这道题给我们解释了一遍"
+              ],
+              "explanation": "Chủ ngữ (李老师) + Giới từ (给我们) + Phó từ trạng ngữ (详细地) + Động từ + Động lượng từ (解释了一遍) + Tân ngữ (这道题).",
+              "explanationVi": "Trật tự câu cơ bản với trạng từ miêu tả và bổ ngữ động lượng 一遍."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hsk5-mock-na-01",
+      "track": "hsk",
+      "title": "HSK 5 Advanced Simulation (Reading & Writing Non-audio)",
+      "titleVi": "Đề thi thử HSK 5 Chuẩn Quốc Tế (Phần Đọc & Viết Cao Cấp)",
+      "level": "HSK 5 (2500 Từ vựng)",
+      "type": "hsk",
+      "durationMinutes": 45,
+      "totalQuestions": 5,
+      "isMiniMock": true,
+      "isOfficialSimulation": false,
+      "syllabusVersion": "hsk2.0",
+      "sections": [
+        {
+          "id": "sec-hsk5-r-01",
+          "skill": "reading",
+          "title": "HSK 5 阅读理解 (Reading Comprehension)",
+          "titleVi": "Phần Đọc Hiểu HSK 5: Bài luận tư duy phản biện",
+          "instructions": "Read the passage and choose the correct answer.",
+          "instructionsVi": "Đọc bài và chọn phương án chính xác.",
+          "passageText": "在现代职场竞争中，心理韧性（Resilience）被广泛视为比单纯智商更为关键的核心素养。心理韧性强的人并非不会经历挫折与负面情绪，而是他们具备迅速从逆境中复原的心理机制。他们倾向于将失败视为暂时的反馈与迭代契机，而非对个人能力的终极否定。这种敏锐的反思意识与坚持到底的意志，往往是推动个人实现突破性成长的决定性力量。",
+          "questions": [
+            {
+              "id": "hsk5-m-q1",
+              "number": 1,
+              "type": "mcq",
+              "prompt": "根据短文，心理韧性强的人有何显著特征？",
+              "promptVi": "Theo đoạn văn, người có độ bền tâm lý cao có đặc điểm nổi bật nào?",
+              "options": [
+                { "key": "A", "text": "从不会感到悲伤与失落 (Không bao giờ thấy buồn)", "textVi": "Không buồn" },
+                { "key": "B", "text": "能迅速从逆境中复原并将失败视作提升契机 (Nhanh chóng phục hồi và coi thất bại là cơ hội nâng cấp bản thân)", "textVi": "Phục hồi nhanh & coi thất bại là cơ hội" },
+                { "key": "C", "text": "从不向他人请教 (Không bao giờ hỏi ý kiến ai)", "textVi": "Không hỏi ai" },
+                { "key": "D", "text": "智商一定是最高的 (IQ chắc chắn cao nhất)", "textVi": "IQ cao nhất" }
+              ],
+              "correctAnswer": "B",
+              "acceptedAnswers": ["B"],
+              "explanation": "Đoạn văn viết: '具备迅速从逆境中复原的心理机制。他们倾向于将失败视为暂时的反馈与迭代契机' (B).",
+              "explanationVi": "Dẫn chứng rõ ràng trong bài: 具备迅速从逆境中复原... 将失败视为反馈与契机."
+            },
+            {
+              "id": "hsk5-m-q2",
+              "number": 2,
+              "type": "mcq",
+              "prompt": "选词填空: 这项新技术若能得到广泛推广，将对降低生产成本起到_____的作用。",
+              "promptVi": "Chọn thành ngữ/tính từ phù hợp để diễn tả tác dụng to lớn mang tính quyết định:",
+              "options": [
+                { "key": "A", "text": "举足轻重 (jǔ zú qīng zhòng - giữ vai trò quyết định/then chốt)", "textVi": "Vai trò then chốt" },
+                { "key": "B", "text": "莫名其妙 (mòmíngqímiào - kỳ quặc khó hiểu)", "textVi": "Khó hiểu" },
+                { "key": "C", "text": "画蛇添足 (huàshétiānzú - vẽ rắn thêm chân/thừa thãi)", "textVi": "Thừa thãi" },
+                { "key": "D", "text": "粗心大意 (cūxīndàyì - cẩu thả bất cẩn)", "textVi": "Bất cẩn" }
+              ],
+              "correctAnswer": "A",
+              "acceptedAnswers": ["A"],
+              "explanation": "'起到举足轻重的作用' là thành ngữ chuẩn mực diễn tả vai trò cốt lõi, then chốt trong HSK 5 (A).",
+              "explanationVi": "举足轻重 (giữ vị trí quyết định) kết hợp cùng 的作用."
+            }
+          ]
+        },
+        {
+          "id": "sec-hsk5-w-01",
+          "skill": "writing",
+          "title": "HSK 5 书写 (Writing - Sentence Reorder)",
+          "titleVi": "Phần Viết HSK 5: Sắp xếp câu cấu trúc phức",
+          "instructions": "Arrange the tokens into a grammatically sound Chinese sentence.",
+          "instructionsVi": "Sắp xếp các từ ngữ sau thành câu ngữ pháp HSK 5 chuẩn xác:",
+          "questions": [
+            {
+              "id": "hsk5-m-q3",
+              "number": 3,
+              "type": "hsk_sentence_reorder",
+              "prompt": "连词成句: 请排列成句:",
+              "promptVi": "Sắp xếp câu:",
+              "reorderTokens": ["不仅能", "坚持阅读", "开阔眼界", "陶冶情操", "而且能"],
+              "correctAnswer": "坚持阅读 不仅能 开阔眼界 而且能 陶冶情操",
+              "acceptedAnswers": ["坚持阅读 不仅能 开阔眼界 而且能 陶冶情操", "坚持阅读不仅能开阔眼界而且能陶冶情操"],
+              "explanation": "Cấu trúc cặp liên từ 不仅...而且...: Chủ ngữ (坚持阅读) + 不仅能 + V1 (开阔眼界) + 而且能 + V2 (陶冶情操).",
+              "explanationVi": "Cấu trúc chuẩn: 坚持阅读不仅能开阔眼界，而且能陶冶情操。"
+            },
+            {
+              "id": "hsk5-m-q4",
+              "number": 4,
+              "type": "hsk_sentence_reorder",
+              "prompt": "连词成句: 请排列成句:",
+              "promptVi": "Sắp xếp câu:",
+              "reorderTokens": ["被", "那篇精彩的演讲", "深深地", "打动了", "所有人"],
+              "correctAnswer": "所有人 都 被 那篇精彩的演讲 深深地 打动了",
+              "acceptedAnswers": [
+                "所有人 都 被 那篇精彩的演讲 深深地 打动了",
+                "所有人被那篇精彩的演讲深深地打动了",
+                "所有人都被那篇精彩的演讲深深地打动了"
+              ],
+              "explanation": "Câu chữ 被 với phó từ trạng ngữ: Chủ ngữ (所有人) + 被 + Chủ thể gây tác động (那篇精彩的演讲) + Trạng ngữ (深深地) + Động từ (打动了).",
+              "explanationVi": "所有人被那篇精彩的演讲深深地打动了。(Tất cả mọi người đều bị bài diễn thuyết lay động sâu sắc)."
+            },
+            {
+              "id": "hsk5-m-q5",
+              "number": 5,
+              "type": "hsk_sentence_reorder",
+              "prompt": "连词成句: 请排列成句:",
+              "promptVi": "Sắp xếp câu:",
+              "reorderTokens": ["任何困难", "我们", "面对", "从容", "都能"],
+              "correctAnswer": "我们 都能 从容 面对 任何困难",
+              "acceptedAnswers": ["我们 都能 从容 面对 任何困难", "我们都能从容面对任何困难"],
+              "explanation": "Chủ ngữ (我们) + Phó từ năng nguyện (都能) + Trạng từ cách thức (从容) + Động từ (面对) + Tân ngữ (任何困难).",
+              "explanationVi": "我们都能从容面对任何困难。(Chúng tôi đều có thể ung dung đối mặt với mọi khó khăn)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hsk6-mock-na-01",
+      "track": "hsk",
+      "title": "HSK 6 Master Simulation (Reading & Writing Non-audio)",
+      "titleVi": "Đề thi thử HSK 6 Chuẩn Quốc Tế (Phần Đọc & Viết Bậc Thầy)",
+      "level": "HSK 6 (5000+ Từ vựng)",
+      "type": "hsk",
+      "durationMinutes": 50,
+      "totalQuestions": 4,
+      "isMiniMock": true,
+      "isOfficialSimulation": false,
+      "syllabusVersion": "hsk2.0",
+      "sections": [
+        {
+          "id": "sec-hsk6-r-01",
+          "skill": "reading",
+          "title": "HSK 6 阅读理解 (Advanced Reading)",
+          "titleVi": "Phần Đọc Hiểu HSK 6: Bệnh cú & Nghị luận triết học",
+          "instructions": "Identify grammatical errors and answer philosophical analysis questions.",
+          "instructionsVi": "Chọn câu đúng ngữ pháp và trả lời câu hỏi đọc hiểu chuyên sâu.",
+          "questions": [
+            {
+              "id": "hsk6-m-q1",
+              "number": 1,
+              "type": "mcq",
+              "prompt": "下列句子中，没有语病的一项是 (Chọn câu KHÔNG MẮC LỖI ngữ pháp HSK 6):",
+              "promptVi": "Chọn câu đúng chuẩn ngữ pháp:",
+              "options": [
+                { "key": "A", "text": "通过这次跨国学术研讨会，使我们开拓了研究视野。", "textVi": "Sai: Lạm dụng cụm giới từ '通过...使...' làm mất chủ ngữ" },
+                { "key": "B", "text": "这次跨国学术研讨会，使我们开拓了研究视野。", "textVi": "Đúng: Có chủ ngữ rõ ràng" },
+                { "key": "C", "text": "能否保持内心的宁静，是衡量一个人心理是否成熟的决定性标志。", "textVi": "Lệch vế: Hai mặt đối chiếu một mặt" },
+                { "key": "D", "text": "为了防止交通事故不再发生，交警加强了巡查力度。", "textVi": "Sai: Phủ định kép sai nghĩa (防止...不再)" }
+              ],
+              "correctAnswer": "B",
+              "acceptedAnswers": ["B"],
+              "explanation": "Câu B có chủ ngữ danh từ rõ ràng '这次跨国学术研讨会'. Câu A thiếu chủ ngữ; Câu C lệch vế; Câu D dùng '防止...不再' khiến nghĩa bị ngược.",
+              "explanationVi": "Câu B chuẩn mực. Câu A mắc lỗi lược mất chủ ngữ vì dùng '通过...使...'."
+            },
+            {
+              "id": "hsk6-m-q2",
+              "number": 2,
+              "type": "mcq",
+              "prompt": "选词填空: 优秀的艺术家往往能够于无声处听惊雷，在最平凡的生活细节中_____出人性的光辉。",
+              "promptVi": "Chọn động từ cao cấp phù hợp:",
+              "options": [
+                { "key": "A", "text": "洞察 (dòngchá - sâu sắc nhìn thấu/quán chiếu)", "textVi": "Quán chiếu nhìn thấu" },
+                { "key": "B", "text": "打听 (dǎting - dò la)", "textVi": "Dò la" },
+                { "key": "C", "text": "走访 (zǒufǎng - đến thăm)", "textVi": "Đến thăm" },
+                { "key": "D", "text": "围观 (wéiguān - vây xem)", "textVi": "Vây xem" }
+              ],
+              "correctAnswer": "A",
+              "acceptedAnswers": ["A"],
+              "explanation": "'洞察出人性的光辉' (nhìn thấu vẻ đẹp nhân tính) là sự kết hợp văn phong cao cấp của HSK 6 (A).",
+              "explanationVi": "洞察 (dòngchá - nhìn thấu triệt) mang tính trừu tượng học thuật cao."
+            }
+          ]
+        },
+        {
+          "id": "sec-hsk6-w-01",
+          "skill": "writing",
+          "title": "HSK 6 书写 (Writing - Sentence Reorder)",
+          "titleVi": "Phần Viết HSK 6: Trật tự câu nghị luận phức hợp",
+          "instructions": "Reorder the formal Chinese tokens.",
+          "instructionsVi": "Sắp xếp câu:",
+          "questions": [
+            {
+              "id": "hsk6-m-q3",
+              "number": 3,
+              "type": "hsk_sentence_reorder",
+              "prompt": "连词成句: 请排列成句:",
+              "promptVi": "Sắp xếp câu:",
+              "reorderTokens": ["并非", "真正的智慧", "知识的简单堆砌", "对客观规律的深刻把握", "而是"],
+              "correctAnswer": "真正的智慧 并非 知识的简单堆砌 而是 对客观规律的深刻把握",
+              "acceptedAnswers": [
+                "真正的智慧 并非 知识的简单堆砌 而是 对客观规律的深刻把握",
+                "真正的智慧并非知识的简单堆砌而是对客观规律的深刻把握"
+              ],
+              "explanation": "Cấu trúc tương phản triết học HSK 6: Chủ ngữ (真正的智慧) + 并非 (không phải là) + A (知识的简单堆砌) + 而是 (mà là) + B (对客观规律的深刻把握).",
+              "explanationVi": "真正的智慧并非知识的简单堆砌，而是对客观规律的深刻把握。"
+            },
+            {
+              "id": "hsk6-m-q4",
+              "number": 4,
+              "type": "hsk_sentence_reorder",
+              "prompt": "连词成句: 请排列成句:",
+              "promptVi": "Sắp xếp câu:",
+              "reorderTokens": ["见微知著", "善于", "优秀的战略家", "在变化中把握先机", "从而"],
+              "correctAnswer": "优秀的战略家 善于 见微知著 从而 在变化中把握先机",
+              "acceptedAnswers": [
+                "优秀的战略家 善于 见微知著 从而 在变化中把握先机",
+                "优秀的战略家善于见微知著从而在变化中把握先机"
+              ],
+              "explanation": "Chủ ngữ (优秀的战略家) + Động từ (善于) + Thành ngữ (见微知著) + Liên từ hệ quả (从而) + Vị ngữ mục tiêu (在变化中把握先机).",
+              "explanationVi": "优秀的战略家善于见微知著，从而在变化中把握先机。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

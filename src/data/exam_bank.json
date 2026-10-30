@@ -1,0 +1,298 @@
+{
+  "exams": [
+    {
+      "id": "ielts-mock-01",
+      "track": "ielts",
+      "title": "IELTS Academic Standard Computer-Based Test 1",
+      "titleVi": "Đề thi thử IELTS Academic Máy tính Chuẩn Quốc Tế 1",
+      "level": "Band 6.0 - 8.5",
+      "type": "academic",
+      "durationMinutes": 60,
+      "totalQuestions": 20,
+      "isMiniMock": false,
+      "isOfficialSimulation": true,
+      "syllabusVersion": "cambridge",
+      "sections": [
+        {
+          "id": "sec-lis-01",
+          "skill": "listening",
+          "title": "Listening Part 1: Campus Student Accommodation Services",
+          "titleVi": "Phần Nghe Part 1: Đăng ký Ký túc xá & Dịch vụ Sinh viên",
+          "instructions": "Answer Questions 1-5. Complete the notes below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+          "instructionsVi": "Trả lời câu 1-5. Điền vào chỗ trống không quá hai từ và/hoặc một số.",
+          "audioUrl": "/audio/ielts_listening_part1.mp3",
+          "audioText": "Hello students, welcome to the university campus accommodation briefing. My name is Alan Roberts, the head residential warden. I will guide you through the key regulations for this academic year. First, regarding communal dining: the main dining hall serves breakfast every morning between 7:00 and 9:30 AM. For lunch and dinner, you can either dine at the cafeteria or prepare your own meals in the kitchen pod located on each floor. Remember that all cooking equipment must be switched off immediately after use to prevent fire alarms. Second, your electronic room keycards: your keycard grants 24-hour access to your residential block, the computer laboratory, and the study library. If you happen to misplace your card, please report immediately to the administration desk on Level 1. A replacement card costs fifteen pounds. Third, quiet hours are strictly enforced between 11:00 PM and 7:00 AM on weekdays, and after midnight on weekends. Visitors must register at the reception lobby and are not permitted to stay overnight without prior written permission from the warden. Finally, for parcel deliveries, all packages will be held at the central post room opposite the sports center. You will receive an automated email notification when a package arrives under your student registration number. Have a pleasant and productive year ahead!",
+          "audioSourceType": "tts",
+          "audioDurationSeconds": 140,
+          "audioTranscript": "Hello students, welcome to the university campus accommodation briefing. My name is Alan Roberts, the head residential warden. I will guide you through the key regulations for this academic year.\n\nFirst, regarding communal dining: the main dining hall serves breakfast every morning between 7:00 and 9:30 AM. For lunch and dinner, you can either dine at the cafeteria or prepare your own meals in the kitchen pod located on each floor. Remember that all cooking equipment must be switched off immediately after use to prevent fire alarms.\n\nSecond, your electronic room keycards: your keycard grants 24-hour access to your residential block, the computer laboratory, and the study library. If you happen to misplace your card, please report immediately to the administration desk on Level 1. A replacement card costs fifteen pounds.\n\nThird, quiet hours are strictly enforced between 11:00 PM and 7:00 AM on weekdays, and after midnight on weekends. Visitors must register at the reception lobby and are not permitted to stay overnight without prior written permission from the warden.\n\nFinally, for parcel deliveries, all packages will be held at the central post room opposite the sports center. You will receive an automated email notification when a package arrives under your student registration number. Have a pleasant and productive year ahead!",
+          "questions": [
+            {
+              "id": "lis-q1",
+              "number": 1,
+              "type": "note_completion",
+              "prompt": "Breakfast is served in the main dining hall until _____ AM.",
+              "promptVi": "Bữa sáng được phục vụ tại nhà ăn chính đến _____ sáng.",
+              "correctAnswer": "9:30",
+              "acceptedAnswers": ["9:30", "9:30 am", "9.30", "9:30am"],
+              "wordLimit": 2,
+              "explanation": "Warden Alan Roberts clearly states: 'the main dining hall serves breakfast every morning between 7:00 and 9:30 AM.'",
+              "explanationVi": "Quản lý ký túc xá Alan Roberts nêu rõ: bữa sáng phục vụ mỗi sáng từ 7:00 đến 9:30 AM.",
+              "evidenceText": "the main dining hall serves breakfast every morning between 7:00 and 9:30 AM.",
+              "evidenceParagraph": "Part 1 - Audio Section 1",
+              "paraphrasePairs": [
+                {
+                  "questionPhrase": "served until",
+                  "passagePhrase": "serves breakfast between 7:00 and 9:30 AM",
+                  "notesVi": "Giới hạn thời gian kết thúc bữa sáng là 9:30 AM"
+                }
+              ]
+            },
+            {
+              "id": "lis-q2",
+              "number": 2,
+              "type": "note_completion",
+              "prompt": "The fee for replacing a lost electronic keycard is _____ pounds.",
+              "promptVi": "Phí cấp lại thẻ khóa điện tử bị mất là _____ bảng Anh.",
+              "correctAnswer": "15",
+              "acceptedAnswers": ["15", "fifteen"],
+              "wordLimit": 1,
+              "explanation": "Alan confirms: 'If you happen to misplace your card, please report immediately... A replacement card costs fifteen pounds.'",
+              "explanationVi": "Diễn giả thông báo: Phí làm lại thẻ khóa bị mất là 15 bảng (fifteen pounds).",
+              "evidenceText": "A replacement card costs fifteen pounds.",
+              "evidenceParagraph": "Part 1 - Audio Section 2",
+              "paraphrasePairs": [
+                {
+                  "questionPhrase": "fee for replacing",
+                  "passagePhrase": "replacement card costs",
+                  "notesVi": "Chi phí cấp lại thẻ"
+                }
+              ]
+            },
+            {
+              "id": "lis-q3",
+              "number": 3,
+              "type": "mcq",
+              "prompt": "Where should students go to report a misplaced keycard?",
+              "promptVi": "Sinh viên cần đến đâu để báo mất thẻ khóa?",
+              "options": [
+                { "key": "A", "text": "In the basement next to laundry", "textVi": "Tầng hầm cạnh phòng giặt" },
+                { "key": "B", "text": "At the administration desk on Level 1", "textVi": "Bàn hành chính ở Tầng 1" },
+                { "key": "C", "text": "At the main university security gate", "textVi": "Cổng bảo vệ trường học" },
+                { "key": "D", "text": "Inside the sports center reception", "textVi": "Lễ tân trung tâm thể thao" }
+              ],
+              "correctAnswer": "B",
+              "acceptedAnswers": ["B"],
+              "explanation": "The speaker advises: 'please report immediately to the administration desk on Level 1.'",
+              "explanationVi": "Báo cáo tại bàn hành chính ở Tầng 1 (administration desk on Level 1).",
+              "evidenceText": "please report immediately to the administration desk on Level 1.",
+              "evidenceParagraph": "Part 1 - Audio Section 2",
+              "distractorExplanations": {
+                "A": "Tầng hầm không được nhắc đến.",
+                "C": "Cổng an ninh không xử lý cấp lại thẻ sinh viên.",
+                "D": "Trung tâm thể thao là nơi đối diện bưu điện nhận gói hàng, không cấp thẻ."
+              }
+            },
+            {
+              "id": "lis-q4",
+              "number": 4,
+              "type": "mcq",
+              "prompt": "On weekdays, quiet hours commence strictly at:",
+              "promptVi": "Vào các ngày trong tuần, giờ yên tĩnh bắt đầu chính xác từ lúc:",
+              "options": [
+                { "key": "A", "text": "10:00 PM", "textVi": "10:00 tối" },
+                { "key": "B", "text": "10:30 PM", "textVi": "10:30 tối" },
+                { "key": "C", "text": "11:00 PM", "textVi": "11:00 tối" },
+                { "key": "D", "text": "Midnight (12:00 AM)", "textVi": "Nửa đêm" }
+              ],
+              "correctAnswer": "C",
+              "acceptedAnswers": ["C"],
+              "explanation": "Alan mentions: 'quiet hours are strictly enforced between 11:00 PM and 7:00 AM on weekdays'.",
+              "explanationVi": "Diễn giả nói rõ: Giờ yên tĩnh được áp dụng từ 11:00 PM (11 giờ đêm) vào các ngày trong tuần.",
+              "evidenceText": "quiet hours are strictly enforced between 11:00 PM and 7:00 AM on weekdays",
+              "evidenceParagraph": "Part 1 - Audio Section 3",
+              "distractorExplanations": {
+                "D": "Nửa đêm (midnight) chỉ áp dụng vào cuối tuần (weekends), không phải ngày trong tuần."
+              }
+            },
+            {
+              "id": "lis-q5",
+              "number": 5,
+              "type": "note_completion",
+              "prompt": "Student parcel deliveries are stored at the central post room opposite the _____ center.",
+              "promptVi": "Bưu kiện gửi cho sinh viên được giữ tại bưu điện trung tâm đối diện trung tâm _____.",
+              "correctAnswer": "sports",
+              "acceptedAnswers": ["sports", "sport"],
+              "wordLimit": 1,
+              "explanation": "The speaker concludes: 'all packages will be held at the central post room opposite the sports center.'",
+              "explanationVi": "Bưu kiện được giữ tại phòng bưu điện trung tâm đối diện trung tâm thể thao (sports center).",
+              "evidenceText": "all packages will be held at the central post room opposite the sports center.",
+              "evidenceParagraph": "Part 1 - Audio Section 4",
+              "paraphrasePairs": [
+                {
+                  "questionPhrase": "parcel deliveries are stored at",
+                  "passagePhrase": "all packages will be held at",
+                  "notesVi": "Bưu phẩm được lưu trữ/giữ tại"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sec-read-01",
+          "skill": "reading",
+          "title": "Reading Passage 1: The Renewable Energy Transition",
+          "titleVi": "Bài Đọc 1: Bước Chuyển Dịch Sang Năng Lượng Tái Tạo Toàn Cầu",
+          "instructions": "Read the passage below and answer Questions 6-10 according to the instructions.",
+          "instructionsVi": "Đọc bài đọc dưới đây và trả lời các câu hỏi từ 6 đến 10.",
+          "passageTitle": "The Renewable Energy Transition: Infrastructure, Economics, and Storage",
+          "passageTitleVi": "Chuyển Đổi Năng Lượng Tái Tạo: Cơ Sở Hạ Tầng, Kinh Tế và Lưu Trữ Điện",
+          "passageText": "Paragraph A: The global transition away from fossil fuels toward sustainable energy vectors is frequently characterized as the most intricate technological undertaking of modern civilization. Unlike the historical shift from coal to petroleum during the early twentieth century, which was propelled primarily by energy density and extraction economics, the contemporary impetus is predominantly environmental and geopolitical. International decarbonization accords obligate sovereign nations to curtail carbon dioxide emissions while simultaneously sustaining industrial power demands.\n\nParagraph B: Wind turbines and solar photovoltaic generation have achieved unprecedented cost parity with conventional thermoelectric plants across most equatorial and temperate latitudes. However, their fundamental intermittency introduces severe grid instability. Without grid-scale electrical storage solutions, sudden shifts in atmospheric meteorological conditions can precipitate severe frequency fluctuations across high-voltage transmission networks, threatening sudden blackouts.\n\nParagraph C: Lithium-iron-phosphate (LFP) battery chemistry has gained preeminence for short-duration storage, offering approximately four to six hours of discharge capacity. Yet, addressing multi-week seasonal imbalances in high-latitude territories demands seasonal chemical carriers, notably electrolytic green hydrogen or ammonia synthesis. Engineering analysts caution that transforming existing subterranean pipeline infrastructure to transport hydrogen incurs considerable metallurgical embrittlement concerns that require substantial capital investment.\n\nParagraph D: Market analysts emphasize that policy frameworks must harmonize economic incentives with transmission modernization. Feed-in tariffs, carbon pricing corridors, and subsidized grid interconnectors are critical instruments to ensure that renewable energy generation capacity can be integrated seamlessly into metropolitan consumption nodes without stranding legacy electrical assets.",
+          "questions": [
+            {
+              "id": "read-q6",
+              "number": 6,
+              "type": "tfng",
+              "prompt": "The 20th-century transition to petroleum was mainly motivated by environmental concerns.",
+              "promptVi": "Quá trình chuyển đổi sang dầu mỏ vào thế kỷ 20 chủ yếu được thúc đẩy bởi các lo ngại về môi trường.",
+              "options": [
+                { "key": "TRUE", "text": "TRUE" },
+                { "key": "FALSE", "text": "FALSE" },
+                { "key": "NOT GIVEN", "text": "NOT GIVEN" }
+              ],
+              "correctAnswer": "FALSE",
+              "acceptedAnswers": ["FALSE"],
+              "explanation": "Paragraph A states that the shift to petroleum 'was propelled primarily by energy density and extraction economics,' whereas the contemporary (today's) impetus is environmental.",
+              "explanationVi": "Đoạn A nêu rõ bước chuyển đổi thế kỷ 20 bắt nguồn từ mật độ năng lượng và bài toán kinh tế khai thác dầu, trong khi lý do môi trường là của thời điểm hiện tại. Do đó câu khẳng định mâu thuẫn trực tiếp với bài (FALSE).",
+              "evidenceText": "Unlike the historical shift from coal to petroleum during the early twentieth century, which was propelled primarily by energy density and extraction economics, the contemporary impetus is predominantly environmental and geopolitical.",
+              "evidenceParagraph": "Paragraph A",
+              "trapNoteVi": "Bẫy phủ định mâu thuẫn: Bài đọc chỉ rõ lý do là kinh tế và mật độ năng lượng, đối lập với nhận định 'environmental concerns'.",
+              "paraphrasePairs": [
+                {
+                  "questionPhrase": "mainly motivated by",
+                  "passagePhrase": "propelled primarily by",
+                  "notesVi": "Chủ yếu được thúc đẩy bởi"
+                }
+              ]
+            },
+            {
+              "id": "read-q7",
+              "number": 7,
+              "type": "tfng",
+              "prompt": "Solar and wind power output can fluctuate when weather conditions shift rapidly.",
+              "promptVi": "Sản lượng điện gió và mặt trời có thể dao động bất thường khi thời tiết thay đổi nhanh chóng.",
+              "options": [
+                { "key": "TRUE", "text": "TRUE" },
+                { "key": "FALSE", "text": "FALSE" },
+                { "key": "NOT GIVEN", "text": "NOT GIVEN" }
+              ],
+              "correctAnswer": "TRUE",
+              "acceptedAnswers": ["TRUE"],
+              "explanation": "Paragraph B states: 'their fundamental intermittency introduces severe grid instability... sudden shifts in atmospheric meteorological conditions can precipitate severe frequency fluctuations'.",
+              "explanationVi": "Đoạn B khẳng định tính gián đoạn cố hữu của gió và mặt trời, khi điều kiện thời tiết thay đổi đột ngột sẽ gây dao động tần số nghiêm trọng trên lưới điện. Hoàn toàn đồng nhất với bài đọc (TRUE).",
+              "evidenceText": "sudden shifts in atmospheric meteorological conditions can precipitate severe frequency fluctuations across high-voltage transmission networks",
+              "evidenceParagraph": "Paragraph B",
+              "paraphrasePairs": [
+                {
+                  "questionPhrase": "fluctuate",
+                  "passagePhrase": "precipitate severe frequency fluctuations",
+                  "notesVi": "Dao động / biến thiên thất thường"
+                },
+                {
+                  "questionPhrase": "weather conditions shift rapidly",
+                  "passagePhrase": "sudden shifts in atmospheric meteorological conditions",
+                  "notesVi": "Thời tiết thay đổi đột ngột"
+                }
+              ]
+            },
+            {
+              "id": "read-q8",
+              "number": 8,
+              "type": "sentence_completion",
+              "prompt": "LFP batteries typically provide electrical discharge capacity of four to _____ hours.",
+              "promptVi": "Pin LFP thường cung cấp dung lượng xả điện từ bốn đến _____ giờ.",
+              "correctAnswer": "six",
+              "acceptedAnswers": ["six", "6"],
+              "wordLimit": 1,
+              "explanation": "Paragraph C notes: 'offering approximately four to six hours of discharge capacity.'",
+              "explanationVi": "Đoạn C viết rõ: cung cấp khoảng bốn đến sáu giờ (four to six hours) dung lượng xả.",
+              "evidenceText": "offering approximately four to six hours of discharge capacity.",
+              "evidenceParagraph": "Paragraph C",
+              "paraphrasePairs": [
+                {
+                  "questionPhrase": "electrical discharge capacity of four to",
+                  "passagePhrase": "offering approximately four to six hours of discharge capacity",
+                  "notesVi": "Cung cấp dung lượng xả điện từ 4 đến 6 tiếng"
+                }
+              ]
+            },
+            {
+              "id": "read-q9",
+              "number": 9,
+              "type": "mcq",
+              "prompt": "What major engineering concern is associated with repurposing subterranean pipelines for hydrogen transport?",
+              "promptVi": "Mối lo ngại kỹ thuật lớn nào liên quan đến việc tận dụng đường ống ngầm để vận chuyển hydro?",
+              "options": [
+                { "key": "A", "text": "Excessive density and weight of compressed gas", "textVi": "Mật độ và khối lượng quá nặng của khí nén" },
+                { "key": "B", "text": "Metallurgical embrittlement of existing metal pipes", "textVi": "Hiện tượng giòn gãy kim loại của hệ thống đường ống kim loại hiện hữu" },
+                { "key": "C", "text": "Total inability to pump gas over high elevations", "textVi": "Hoàn toàn không thể bơm khí lên các địa hình cao" },
+                { "key": "D", "text": "Spontaneous chemical condensation into liquid", "textVi": "Hiện tượng tự ngưng tụ thành chất lỏng" }
+              ],
+              "correctAnswer": "B",
+              "acceptedAnswers": ["B"],
+              "explanation": "Paragraph C highlights: 'transforming existing subterranean pipeline infrastructure to transport hydrogen incurs considerable metallurgical embrittlement concerns'.",
+              "explanationVi": "Đoạn C nêu đích danh cụm từ 'metallurgical embrittlement concerns' (lo ngại giòn gãy kết cấu kim loại của đường ống ngầm).",
+              "evidenceText": "transforming existing subterranean pipeline infrastructure to transport hydrogen incurs considerable metallurgical embrittlement concerns that require substantial capital investment.",
+              "evidenceParagraph": "Paragraph C",
+              "distractorExplanations": {
+                "A": "Hydro là nguyên tố nhẹ nhất, không có vấn đề về trọng lượng quá nặng.",
+                "C": "Bài đọc không nói về địa hình cao.",
+                "D": "Không có hiện tượng tự ngưng tụ được nhắc đến."
+              }
+            },
+            {
+              "id": "read-q10",
+              "number": 10,
+              "type": "mcq",
+              "prompt": "Which heading best summarizes the core subject of Paragraph B?",
+              "promptVi": "Tiêu đề nào tóm lược chính xác nhất chủ đề của Đoạn B?",
+              "options": [
+                { "key": "A", "text": "Renewable cost parity contrasted with grid intermittency challenges", "textVi": "Ngang giá chi phí năng lượng tái tạo đối lập với thách thức tính gián đoạn của lưới điện" },
+                { "key": "B", "text": "The geopolitical conflicts surrounding coal mines", "textVi": "Xung đột địa chính trị xoay quanh các mỏ than đá" },
+                { "key": "C", "text": "Global standards for residential solar panels", "textVi": "Tiêu chuẩn quốc tế cho pin mặt trời hộ gia đình" },
+                { "key": "D", "text": "The retirement of nuclear thermoelectric generators", "textVi": "Việc đóng cửa các máy phát điện hạt nhân" }
+              ],
+              "correctAnswer": "A",
+              "acceptedAnswers": ["A"],
+              "explanation": "Paragraph B balances the achievement of cost parity for wind and solar against the technical threat of intermittency and grid instability.",
+              "explanationVi": "Đoạn B đặt song song thành tựu về chi phí rẻ ngang bằng nhiệt điện với thách thức lớn về tính gián đoạn (intermittency) đe dọa mất điện diện rộng.",
+              "evidenceText": "Wind turbines and solar photovoltaic generation have achieved unprecedented cost parity... However, their fundamental intermittency introduces severe grid instability.",
+              "evidenceParagraph": "Paragraph B"
+            }
+          ]
+        },
+        {
+          "id": "sec-wri-01",
+          "skill": "writing",
+          "title": "Writing Module: Task 2 Academic Essay",
+          "titleVi": "Phần Viết: IELTS Writing Task 2 Bài Luận Học Thuật",
+          "instructions": "You should spend about 40 minutes on this task. Write at least 250 words.",
+          "instructionsVi": "Bạn nên dành khoảng 40 phút cho phần này. Viết tối thiểu 250 từ.",
+          "taskType": "task2_essay",
+          "questions": [
+            {
+              "id": "wri-q1",
+              "number": 11,
+              "type": "writing_task2",
+              "prompt": "Some people believe that artificial intelligence will completely replace human educators in schools and universities in the future. To what extent do you agree or disagree? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+              "promptVi": "Một số người tin rằng trí tuệ nhân tạo sẽ thay thế hoàn toàn giáo viên con người tại các trường học và đại học trong tương lai. Bạn đồng ý hay không đồng ý đến mức độ nào?",
+              "correctAnswer": "Bài mẫu & Tiêu chí chấm Band 7.5+",
+              "wordCountTarget": 250,
+              "explanation": "A high-scoring response (Band 7.5+) must clearly establish a balanced stance (e.g., partial disagreement), addressing how AI can assist with grading, customized pacing, and content retrieval, while emphasizing why human teachers remain irreplaceable for moral guidance, emotional intelligence, critical thinking facilitation, and social mentorship.",
+              "explanationVi": "Bài viết đạt Band 7.5+ cần có quan điểm rõ ràng, cấu trúc 4 đoạn mạch lạc: Mở bài nêu lập trường, Thân bài 1 phân tích năng lực vượt trội của AI trong cá nhân hóa bài giảng, Thân bài 2 khẳng định vai trò không thể thay thế của giáo viên ở phương diện trí tuệ cảm xúc và tư duy phản biện, Kết bài khẳng định sự kết hợp cộng sinh thay vì thay thế hoàn toàn."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

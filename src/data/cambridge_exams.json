@@ -1,0 +1,308 @@
+{
+  "cambridgeExams": [
+    {
+      "id": "ielts-cambridge-19-test-1",
+      "track": "ielts",
+      "title": "Cambridge IELTS 19 Academic Test 1 (Reading & Writing)",
+      "titleVi": "Đề thi Cambridge IELTS 19 Academic Test 1 (Reading & Writing Chuẩn Study4)",
+      "level": "Band 6.0 - 9.0",
+      "type": "academic",
+      "durationMinutes": 60,
+      "totalQuestions": 40,
+      "isMiniMock": false,
+      "isOfficialSimulation": true,
+      "syllabusVersion": "cambridge-19",
+      "sections": [
+        {
+          "id": "c19-t1-sec-read-1",
+          "skill": "reading",
+          "title": "Reading Passage 1: How Tennis Rackets Have Changed",
+          "titleVi": "Bài Đọc 1: Sự Thay Đổi của Cây Vợt Tennis Qua Các Kỷ Nguyên",
+          "instructions": "You should spend about 20 minutes on Questions 1-13, which are based on Reading Passage 1 below.",
+          "instructionsVi": "Dành khoảng 20 phút cho câu hỏi 1-13 dựa trên Bài Đọc 1 bên dưới.",
+          "passageTitle": "How Tennis Rackets Have Changed",
+          "passageTitleVi": "Lịch Sử và Tiến Hóa Kỹ Thuật của Cây Vợt Tennis",
+          "passageText": "Paragraph A: In 1874, Major Walter Wingfield patented a game called Sphairistike, which laid the foundation for modern lawn tennis. The earliest rackets manufactured during this Victorian era were fashioned almost entirely from laminated ash wood, bent under steam and glued into an asymmetrical teardrop frame. Because wood is prone to warping in humid atmospheric conditions, players had to store their rackets inside rigid wooden presses with thumb screws. Despite these constraints, wooden frames dominated championship courts at Wimbledon and Forest Hills for nearly a century.\n\nParagraph B: The mid-1960s witnessed the first major structural revolution. Wilson Sporting Goods unveiled the T2000, an innovative racket constructed from cold-rolled tubular steel. Featuring an open wire-wound stringing suspension rather than traditional drilled grommets, the steel frame dramatically reduced air resistance and allowed players like Jimmy Connors to generate blistering shot speeds. Shortly thereafter, Prince introduced the oversized aluminum racket designed by Howard Head in 1976. By expanding the racket head area from 65 to over 100 square inches, Head enlarged the 'sweet spot'—the central region of the string bed where impact vibration is minimized and rebound energy transfer is maximized.\n\nParagraph C: However, the definitive turning point in tennis equipment engineering arrived with the adoption of advanced carbon fiber composite materials in the early 1980s. Carbon fibers, woven with epoxy resins, exhibited an exceptional stiffness-to-weight ratio far surpassing metallic alloys. Racket engineers could now calibrate structural stiffness across distinct zones of the frame: reinforcing the throat for torsional stability during off-center hits, while preserving flexibility in the upper hoop to enhance ball dwell time and spin generation.\n\nParagraph D: Modern carbon composite rackets have reshaped professional tennis technique. In the wooden racket era, players predominantly utilized continental grips, producing flat strokes and relying heavily on serve-and-volley tactics. Contemporary players, wielding lightweight frames capable of extreme tip acceleration, routinely employ semi-western and western grips to impart topspin rates exceeding 3,000 revolutions per minute. Biomechanical analyses confirm that this heavy topspin causes the ball to dip steeply inside the baseline, permitting aggressive groundstrokes from deep behind the court.",
+          "questions": [
+            {
+              "id": "c19-q1",
+              "number": 1,
+              "type": "fill_blank",
+              "prompt": "1. Victorian wooden tennis frames were predominantly crafted from laminated _____ wood.",
+              "promptVi": "Khung vợt gỗ thời kỳ Victoria chủ yếu được chế tác từ gỗ _____ ép lớp.",
+              "correctAnswer": "ash",
+              "acceptedAnswers": ["ash", "ash wood"],
+              "wordLimit": 1,
+              "explanation": "Paragraph A states: 'The earliest rackets manufactured during this Victorian era were fashioned almost entirely from laminated ash wood'.",
+              "explanationVi": "Đoạn A nêu rõ: vợt thời Victoria được làm hầu hết từ gỗ tần bì ép (laminated ash wood).",
+              "evidenceText": "fashioned almost entirely from laminated ash wood",
+              "evidenceParagraph": "Paragraph A",
+              "paraphrasePairs": [
+                {
+                  "questionPhrase": "predominantly crafted from",
+                  "passagePhrase": "fashioned almost entirely from",
+                  "notesVi": "Chế tác chủ yếu từ..."
+                }
+              ]
+            },
+            {
+              "id": "c19-q2",
+              "number": 2,
+              "type": "fill_blank",
+              "prompt": "2. Players used rigid wooden presses to protect frames from _____ caused by damp conditions.",
+              "promptVi": "Người chơi dùng khung ép gỗ cứng để ngăn ngừa vợt bị _____ do ẩm ướt.",
+              "correctAnswer": "warping",
+              "acceptedAnswers": ["warping", "warp"],
+              "wordLimit": 1,
+              "explanation": "Paragraph A notes: 'Because wood is prone to warping in humid atmospheric conditions, players had to store their rackets inside rigid wooden presses'.",
+              "explanationVi": "Đoạn A viết: Do gỗ dễ bị cong vênh (warping) khi ẩm, người chơi phải ép trong khung gỗ có vít vặn.",
+              "evidenceText": "Because wood is prone to warping in humid atmospheric conditions",
+              "evidenceParagraph": "Paragraph A",
+              "paraphrasePairs": [
+                {
+                  "questionPhrase": "damp conditions",
+                  "passagePhrase": "humid atmospheric conditions",
+                  "notesVi": "Điều kiện ẩm ướt"
+                }
+              ]
+            },
+            {
+              "id": "c19-q3",
+              "number": 3,
+              "type": "fill_blank",
+              "prompt": "3. The Wilson T2000 was fabricated using cold-rolled tubular _____.",
+              "promptVi": "Cây vợt Wilson T2000 được sản xuất bằng ống _____ cán nguội.",
+              "correctAnswer": "steel",
+              "acceptedAnswers": ["steel"],
+              "wordLimit": 1,
+              "explanation": "Paragraph B explains: 'Wilson Sporting Goods unveiled the T2000, an innovative racket constructed from cold-rolled tubular steel.'",
+              "explanationVi": "Đoạn B khẳng định: T2000 được chế tạo từ ống thép cán nguội (cold-rolled tubular steel).",
+              "evidenceText": "constructed from cold-rolled tubular steel",
+              "evidenceParagraph": "Paragraph B"
+            },
+            {
+              "id": "c19-q4",
+              "number": 4,
+              "type": "fill_blank",
+              "prompt": "4. Howard Head enlarged the racket's 'sweet spot' by expanding the total _____ of the frame.",
+              "promptVi": "Howard Head đã mở rộng điểm ngọt của cây vợt bằng cách tăng diện tích _____ của khung.",
+              "correctAnswer": "head area",
+              "acceptedAnswers": ["head area", "head"],
+              "wordLimit": 2,
+              "explanation": "Paragraph B explains: 'By expanding the racket head area from 65 to over 100 square inches, Head enlarged the sweet spot'.",
+              "explanationVi": "Dẫn chứng: Bằng cách mở rộng diện tích đầu vợt (head area) từ 65 lên hơn 100 inch vuông.",
+              "evidenceText": "expanding the racket head area from 65 to over 100 square inches, Head enlarged the 'sweet spot'",
+              "evidenceParagraph": "Paragraph B"
+            },
+            {
+              "id": "c19-q5",
+              "number": 5,
+              "type": "tfng",
+              "prompt": "5. Carbon fiber composites possess a higher stiffness-to-weight ratio than metallic alloys.",
+              "promptVi": "Vật liệu sợi carbon tổng hợp có tỷ số độ cứng trên trọng lượng cao hơn các hợp kim kim loại.",
+              "options": [
+                { "key": "TRUE", "text": "TRUE" },
+                { "key": "FALSE", "text": "FALSE" },
+                { "key": "NOT GIVEN", "text": "NOT GIVEN" }
+              ],
+              "correctAnswer": "TRUE",
+              "acceptedAnswers": ["TRUE"],
+              "explanation": "Paragraph C states: 'Carbon fibers, woven with epoxy resins, exhibited an exceptional stiffness-to-weight ratio far surpassing metallic alloys.'",
+              "explanationVi": "Đoạn C khẳng định sợi carbon có tỷ số độ cứng/trọng lượng vượt xa kim loại (far surpassing metallic alloys) -> TRUE.",
+              "evidenceText": "exhibited an exceptional stiffness-to-weight ratio far surpassing metallic alloys.",
+              "evidenceParagraph": "Paragraph C"
+            },
+            {
+              "id": "c19-q6",
+              "number": 6,
+              "type": "tfng",
+              "prompt": "6. Professional players in the wooden racket era commonly hit heavy topspin groundstrokes from behind the baseline.",
+              "promptVi": "Các tay vợt chuyên nghiệp thời kỳ vợt gỗ thường xuyên đánh bóng xoáy topspin nặng từ cuối sân.",
+              "options": [
+                { "key": "TRUE", "text": "TRUE" },
+                { "key": "FALSE", "text": "FALSE" },
+                { "key": "NOT GIVEN", "text": "NOT GIVEN" }
+              ],
+              "correctAnswer": "FALSE",
+              "acceptedAnswers": ["FALSE"],
+              "explanation": "Paragraph D states that in the wooden era, players 'predominantly utilized continental grips, producing flat strokes and relying heavily on serve-and-volley', while heavy topspin is a feature of contemporary players with composite frames.",
+              "explanationVi": "Đoạn D khẳng định thời kỳ vợt gỗ chủ yếu đánh bóng phẳng (flat strokes) và giao bóng lên lưới (serve-and-volley), ngược lại với topspin nặng -> FALSE.",
+              "evidenceText": "In the wooden racket era, players predominantly utilized continental grips, producing flat strokes and relying heavily on serve-and-volley tactics.",
+              "evidenceParagraph": "Paragraph D"
+            },
+            {
+              "id": "c19-q7",
+              "number": 7,
+              "type": "mcq",
+              "prompt": "7. What physical effect causes a heavy topspin tennis shot to dive sharply into the court?",
+              "promptVi": "Hiện tượng vật lý nào khiến cú đánh topspin nặng chúc nhanh xuống mặt sân?",
+              "options": [
+                { "key": "A", "text": "Aerodynamic Magnus effect causing the ball to dip steeply", "textVi": "Lực khí động học khiến bóng chúc dốc xuống" },
+                { "key": "B", "text": "Increased racket mass absorbing air drag", "textVi": "Khối lượng vợt tăng triệt tiêu lực cản" },
+                { "key": "C", "text": "Vibration dampeners located on the frame throat", "textVi": "Bộ giảm chấn ở cổ vợt" },
+                { "key": "D", "text": "Excessive humidity in court atmosphere", "textVi": "Độ ẩm cao trên sân đấu" }
+              ],
+              "correctAnswer": "A",
+              "acceptedAnswers": ["A"],
+              "explanation": "Paragraph D confirms: 'heavy topspin causes the ball to dip steeply inside the baseline, permitting aggressive groundstrokes'.",
+              "explanationVi": "Đoạn D giải thích topspin nặng khiến quỹ đạo bóng chúc nhanh (dip steeply) vào trong vạch baseline.",
+              "evidenceText": "heavy topspin causes the ball to dip steeply inside the baseline",
+              "evidenceParagraph": "Paragraph D"
+            }
+          ]
+        },
+        {
+          "id": "c19-t1-sec-wri-1",
+          "skill": "writing",
+          "title": "Writing Task 2: Purpose of Higher Education",
+          "titleVi": "Bài Viết Task 2: Mục Đích của Giáo Dục Đại Học (Chuẩn Cambridge 19)",
+          "instructions": "You should spend about 40 minutes on this task. Write at least 250 words.",
+          "instructionsVi": "Bạn nên dành khoảng 40 phút cho phần này. Viết tối thiểu 250 từ.",
+          "taskType": "task2_essay",
+          "questions": [
+            {
+              "id": "c19-w-q1",
+              "number": 8,
+              "type": "writing_task2",
+              "prompt": "Some people believe that university education should focus exclusively on providing specialized knowledge and practical skills for future employment. Others argue that universities should offer a broader academic curriculum aimed at overall personal and intellectual development. Discuss both views and give your own opinion.",
+              "promptVi": "Một số người cho rằng giáo dục đại học nên chỉ tập trung vào kỹ năng nghề nghiệp và việc làm. Người khác lại cho rằng trường đại học cần mang lại giáo dục khai phóng và phát triển trí tuệ toàn diện. Thảo luận cả hai quan điểm và nêu ý kiến của bạn.",
+              "correctAnswer": "Bài mẫu & Tiêu chí chấm Band 8.5+",
+              "wordCountTarget": 250,
+              "explanation": "High-scoring Band 8.5+ Framework: Introduction with balanced thesis; Body 1 examining vocational specialization and economic competitiveness; Body 2 evaluating broader intellectual adaptability and critical thinking; Conclusion recommending a hybrid curricular model.",
+              "explanationVi": "Dàn bài Band 8.5+: Mở bài nêu rõ lập trường song song; Thân bài 1 phân tích lợi thế việc làm của chuyên môn hóa; Thân bài 2 phân tích tầm quan trọng của tư duy phản biện khai phóng; Kết luận khẳng định sự kết hợp cân bằng giữa đào tạo nghề và phát triển trí tuệ."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ielts-cambridge-18-test-1",
+      "track": "ielts",
+      "title": "Cambridge IELTS 18 Academic Test 1 (Reading & Writing)",
+      "titleVi": "Đề thi Cambridge IELTS 18 Academic Test 1 (Reading & Writing Chuẩn Study4)",
+      "level": "Band 6.0 - 9.0",
+      "type": "academic",
+      "durationMinutes": 60,
+      "totalQuestions": 40,
+      "isMiniMock": false,
+      "isOfficialSimulation": true,
+      "syllabusVersion": "cambridge-18",
+      "sections": [
+        {
+          "id": "c18-t1-sec-read-1",
+          "skill": "reading",
+          "title": "Reading Passage 1: Urban Agriculture and Vertical Hydroponics in Singapore",
+          "titleVi": "Bài Đọc 1: Nông Nghiệp Đô Thị & Thủy Canh Thẳng Đứng tại Singapore",
+          "instructions": "You should spend about 20 minutes on Questions 1-7, which are based on Reading Passage 1 below.",
+          "instructionsVi": "Dành khoảng 20 phút cho câu hỏi 1-7 dựa trên Bài Đọc 1 bên dưới.",
+          "passageTitle": "Vertical Agriculture and Food Security in Island Nations",
+          "passageTitleVi": "Nông Nghiệp Thẳng Đứng và An Ninh Lương Thực tại Các Đảo Quốc",
+          "passageText": "Paragraph A: Singapore, an island city-state spanning barely 730 square kilometers with a populace exceeding 5.9 million residents, imports over 90 percent of its food supply. To safeguard against global supply chain disruptions and geopolitical volatility, the Singapore Food Agency instituted the ambitious '30 by 30' initiative, targeting local domestic production of 30 percent of the nation's nutritional requirements by the year 2030. Constrained by severe land scarcity, conventional soil agriculture is unviable, prompting state-backed commercial adoption of vertical hydroponic skyscrapers.\n\nParagraph B: Pioneering operations such as Sky Greens deploy patented vertical farming systems where tiered growing troughs rotate continuously along a nine-meter-tall aluminum A-frame. Powered by a closed-loop hydraulic mechanism requiring minimal electrical energy, the rotating system ensures uniform distribution of natural sunlight across all seedling trays. Rainwater harvested from rooftop catchments is recycled through filtration membranes, slashing water consumption by up to 95 percent compared to open-field farming.\n\nParagraph C: Complementary indoor vertical farms rely on precision-controlled light-emitting diode (LED) arrays. By tailoring the wavelength spectrum—combining deep blue photon emissions for vegetative chlorophyll synthesis with hyper-red light for accelerated flowering—growers can harvest fresh leafy greens in just 28 days, achieving yields up to fifteen times greater per square meter than rural arable land.",
+          "questions": [
+            {
+              "id": "c18-q1",
+              "number": 1,
+              "type": "fill_blank",
+              "prompt": "1. Singapore currently relies on overseas imports for more than _____ percent of its total food supply.",
+              "promptVi": "Singapore hiện nhập khẩu hơn _____ phần trăm tổng lượng thực phẩm từ nước ngoài.",
+              "correctAnswer": "90",
+              "acceptedAnswers": ["90", "90%"],
+              "wordLimit": 1,
+              "explanation": "Paragraph A notes: 'Singapore... imports over 90 percent of its food supply.'",
+              "explanationVi": "Đoạn A nêu: Singapore nhập khẩu hơn 90% lương thực từ nước ngoài.",
+              "evidenceText": "imports over 90 percent of its food supply.",
+              "evidenceParagraph": "Paragraph A"
+            },
+            {
+              "id": "c18-q2",
+              "number": 2,
+              "type": "fill_blank",
+              "prompt": "2. The national food security program launched by Singapore is known as the _____ initiative.",
+              "promptVi": "Chương trình an ninh lương thực quốc gia của Singapore có tên là sáng kiến _____.",
+              "correctAnswer": "30 by 30",
+              "acceptedAnswers": ["30 by 30", "30 by 30 initiative"],
+              "wordLimit": 3,
+              "explanation": "Paragraph A states: 'the Singapore Food Agency instituted the ambitious 30 by 30 initiative'.",
+              "explanationVi": "Dẫn chứng: 'instituted the ambitious 30 by 30 initiative...'",
+              "evidenceText": "instituted the ambitious '30 by 30' initiative",
+              "evidenceParagraph": "Paragraph A"
+            },
+            {
+              "id": "c18-q3",
+              "number": 3,
+              "type": "fill_blank",
+              "prompt": "3. The rotating vertical system at Sky Greens is driven by a closed-loop _____ mechanism.",
+              "promptVi": "Hệ thống thẳng đứng xoay tại Sky Greens được vận hành bởi cơ chế _____ tuần hoàn khép kín.",
+              "correctAnswer": "hydraulic",
+              "acceptedAnswers": ["hydraulic"],
+              "wordLimit": 1,
+              "explanation": "Paragraph B states: 'Powered by a closed-loop hydraulic mechanism requiring minimal electrical energy'.",
+              "explanationVi": "Đoạn B nêu rõ: Vận hành bởi cơ chế thủy lực khép kín (closed-loop hydraulic mechanism).",
+              "evidenceText": "Powered by a closed-loop hydraulic mechanism requiring minimal electrical energy",
+              "evidenceParagraph": "Paragraph B"
+            },
+            {
+              "id": "c18-q4",
+              "number": 4,
+              "type": "tfng",
+              "prompt": "4. Rotating vertical troughs require extensive chemical pesticides to cultivate crops indoors.",
+              "promptVi": "Các máng trồng xoay thẳng đứng đòi hỏi lượng lớn thuốc trừ sâu hóa học khi trồng trong nhà.",
+              "options": [
+                { "key": "TRUE", "text": "TRUE" },
+                { "key": "FALSE", "text": "FALSE" },
+                { "key": "NOT GIVEN", "text": "NOT GIVEN" }
+              ],
+              "correctAnswer": "NOT GIVEN",
+              "acceptedAnswers": ["NOT GIVEN"],
+              "explanation": "The passage mentions rotating systems and recycled rainwater, but does not provide details regarding chemical pesticides.",
+              "explanationVi": "Bài đọc không đề cập đến việc sử dụng thuốc trừ sâu hóa học -> NOT GIVEN.",
+              "evidenceText": "No mention of chemical pesticides in passage.",
+              "evidenceParagraph": "Paragraph B"
+            },
+            {
+              "id": "c18-q5",
+              "number": 5,
+              "type": "mcq",
+              "prompt": "5. Which photon wavelength promotes vegetative chlorophyll synthesis in precision indoor vertical farms?",
+              "promptVi": "Bước sóng quang tử nào kích thích tổng hợp diệp lục phát triển sinh dưỡng trong trang trại thủy canh?",
+              "options": [
+                { "key": "A", "text": "Deep blue photon emissions", "textVi": "Bức xạ quang tử xanh thẫm (Deep blue)" },
+                { "key": "B", "text": "Ultraviolet ionizing rays", "textVi": "Tia cực tím ion hóa" },
+                { "key": "C", "text": "Infrared thermal waves", "textVi": "Sóng nhiệt hồng ngoại" },
+                { "key": "D", "text": "Microwave radio pulses", "textVi": "Sóng vi ba radio" }
+              ],
+              "correctAnswer": "A",
+              "acceptedAnswers": ["A"],
+              "explanation": "Paragraph C explains: 'combining deep blue photon emissions for vegetative chlorophyll synthesis with hyper-red light'.",
+              "explanationVi": "Đoạn C nêu: kết hợp ánh sáng xanh thẫm (deep blue photon emissions) để tổng hợp diệp lục.",
+              "evidenceText": "combining deep blue photon emissions for vegetative chlorophyll synthesis",
+              "evidenceParagraph": "Paragraph C"
+            }
+          ]
+        },
+        {
+          "id": "c18-t1-sec-wri-1",
+          "skill": "writing",
+          "title": "Writing Task 1: Seawater Desalination Plant Process",
+          "titleVi": "Bài Viết Task 1: Quy Trình Nhà Máy Khử Muối Nước Biển (Chuẩn Cambridge 18)",
+          "instructions": "You should spend about 20 minutes on this task. Write at least 150 words.",
+          "instructionsVi": "Bạn nên dành khoảng 20 phút cho phần này. Viết tối thiểu 150 từ.",
+          "taskType": "task1_academic",
+          "questions": [
+            {
+              "id": "c18-w-q1",
+              "number": 6,
+              "type": "writing_academic_task1",
+              "prompt": "The diagram illustrates the sequential process by which seawater is converted into potable drinking water via a multi-stage reverse-osmosis desalination facility. Summarize the information by selecting and reporting the main features, and make comparisons where relevant.",
+              "promptVi": "Sơ đồ minh họa quy trình chuyển đổi nước biển thành nước uống sinh hoạt qua nhà máy khử muối thẩm thấu ngược nhiều giai đoạn. Tóm tắt các đặc điểm chính và so sánh khi phù hợp.",
+              "correctAnswer": "Bài mẫu & Tiêu chí chấm Band 8.5+",
+              "wordCountTarget": 150,
+              "explanation": "Task 1 Report Model: Introduction paraphrasing diagram; Comprehensive 2-sentence Overview identifying intake, high-pressure semi-permeable membrane filtration, post-treatment remineralization, and brine ejection; Two structured Body paragraphs detailing mechanical filtration and chemical stabilization.",
+              "explanationVi": "Bài mẫu Task 1: Mở bài diễn giải đề bài; Overview nêu 2 giai đoạn chính: tách khoáng áp suất cao qua màng bán thấm và xử lý khoáng chất; Thân bài 1 & 2 trình bày chi tiết từng bước vận hành."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

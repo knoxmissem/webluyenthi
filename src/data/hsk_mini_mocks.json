@@ -1,0 +1,154 @@
+{
+  "hskMocks": [
+    {
+      "id": "hsk-mock-01",
+      "track": "hsk",
+      "title": "HSK Level 4 Standard Computer-Based Examination",
+      "titleVi": "Đề thi thử Máy tính Chuẩn Quốc Tế HSK Cấp 4",
+      "level": "HSK 4 (1200 Từ vựng)",
+      "type": "hsk",
+      "durationMinutes": 45,
+      "totalQuestions": 6,
+      "isMiniMock": false,
+      "isOfficialSimulation": true,
+      "syllabusVersion": "hsk2.0",
+      "sections": [
+        {
+          "id": "sec-hsk-lis-01",
+          "skill": "listening",
+          "title": "HSK 4 听力理解 (Listening Comprehension)",
+          "titleVi": "Phần Nghe Hiểu HSK 4: Đối Thoại & Phán Đoán",
+          "instructions": "Listen to short dialogues and choose the best answer for each question.",
+          "instructionsVi": "Nghe các đoạn hội thoại ngắn và chọn đáp án chính xác nhất.",
+          "audioUrl": "/audio/hsk4_listening_01.mp3",
+          "audioText": "男：王经理，这份关于新项目合作的合同需要您亲自签字确认一下。\n女：好的，你先放在桌上吧。我刚开完两个小时的跨国部门会议，嗓子有点疼，先喝口温水再仔细看。\n问：女的刚才在做什么？\n\n男：小李，你周末打算去哪儿放松一下？\n女：我打算去市中心的图书馆，下周三有一个重要的专业资格考试，我得抓紧时间复习。\n问：女的周末要做什么？",
+          "audioSourceType": "tts",
+          "audioDurationSeconds": 75,
+          "playbackPolicy": "single_pass",
+          "questions": [
+            {
+              "id": "hsk-q1",
+              "number": 1,
+              "type": "hsk_listening_dialogue",
+              "prompt": "女的刚才在做什么？(Người phụ nữ vừa làm gì?)",
+              "promptVi": "Người phụ nữ vừa làm việc gì trước đó?",
+              "options": [
+                { "key": "A", "text": "开会 (Họp)", "textVi": "Họp hành" },
+                { "key": "B", "text": "喝茶 (Uống trà)", "textVi": "Uống trà" },
+                { "key": "C", "text": "看电影 (Xem phim)", "textVi": "Xem phim" },
+                { "key": "D", "text": "跑步 (Chạy bộ)", "textVi": "Chạy bộ" }
+              ],
+              "correctAnswer": "A",
+              "acceptedAnswers": ["A"],
+              "explanation": "女的说: '我刚开完两个小时的跨国部门会议' -> Cô ấy vừa kết thúc cuộc họp phòng ban kéo dài 2 tiếng.",
+              "explanationVi": "Người phụ nữ nói rõ: '我刚开完两个小时的跨国部门会议' -> Vừa họp xong (开会).",
+              "evidenceText": "我刚开完两个小时的跨国部门会议",
+              "evidenceParagraph": "Dialogue 1"
+            },
+            {
+              "id": "hsk-q2",
+              "number": 2,
+              "type": "hsk_listening_dialogue",
+              "prompt": "女的身体现在怎么了？(Sức khỏe cô ấy đang thế nào?)",
+              "promptVi": "Tình trạng sức khỏe của người phụ nữ hiện ra sao?",
+              "options": [
+                { "key": "A", "text": "头疼 (Đau đầu)", "textVi": "Đau đầu" },
+                { "key": "B", "text": "嗓子疼 (Đau họng)", "textVi": "Đau rát cổ họng" },
+                { "key": "C", "text": "肚子疼 (Đau bụng)", "textVi": "Đau bụng" },
+                { "key": "D", "text": "发烧 (Sốt cao)", "textVi": "Bị sốt" }
+              ],
+              "correctAnswer": "B",
+              "acceptedAnswers": ["B"],
+              "explanation": "女的说: '嗓子有点疼，先喝口温水再仔细看' -> Họng hơi đau nên muốn uống nước ấm trước.",
+              "explanationVi": "Dẫn chứng: '嗓子有点疼' -> Đau họng (嗓子疼).",
+              "evidenceText": "嗓子有点疼，先喝口温水再仔细看",
+              "evidenceParagraph": "Dialogue 1"
+            },
+            {
+              "id": "hsk-q3",
+              "number": 3,
+              "type": "hsk_listening_dialogue",
+              "prompt": "女的周末打算做什么？(Người phụ nữ dự định làm gì cuối tuần?)",
+              "promptVi": "Cuối tuần người phụ nữ dự định làm gì?",
+              "options": [
+                { "key": "A", "text": "逛街购物 (Đi mua sắm)", "textVi": "Mua sắm" },
+                { "key": "B", "text": "去图书馆复习 (Đến thư viện ôn thi)", "textVi": "Đến thư viện ôn thi" },
+                { "key": "C", "text": "去爬山 (Đi leo núi)", "textVi": "Leo núi" },
+                { "key": "D", "text": "在家睡觉 (Ở nhà ngủ)", "textVi": "Ngủ ở nhà" }
+              ],
+              "correctAnswer": "B",
+              "acceptedAnswers": ["B"],
+              "explanation": "女的说: '我打算去市中心的图书馆... 我得抓紧时间复习' -> Đến thư viện ôn bài cho kỳ thi quan trọng.",
+              "explanationVi": "Dẫn chứng: '我打算去市中心的图书馆... 我得抓紧时间复习' (Đến thư viện ôn bài).",
+              "evidenceText": "我打算去市中心的图书馆，下周三有一个重要的专业资格考试，我得抓紧时间复习",
+              "evidenceParagraph": "Dialogue 2"
+            }
+          ]
+        },
+        {
+          "id": "sec-hsk-read-01",
+          "skill": "reading",
+          "title": "HSK 4 阅读理解 (Reading Comprehension)",
+          "titleVi": "Phần Đọc Hiểu HSK 4: Đoạn Văn Ngắn",
+          "instructions": "Read the passage and choose the correct answer for each question.",
+          "instructionsVi": "Đọc đoạn văn ngắn và chọn đáp án chính xác.",
+          "passageTitle": "绿色出行与共享单车 (Giao thông xanh & Xe đạp chia sẻ)",
+          "passageTitleVi": "Giao thông Xanh và Văn hóa Xe đạp Công cộng tại Đô thị",
+          "passageText": "在中国，绿色出行越来越受到人们的欢迎。共享单车不仅方便了市民的日常出行，解决了'最后一公里'的交通难题，而且对保护城市环境、减少空气污染起到了积极的作用。如今，不仅是年轻人，很多老人也开始学会用手机扫码骑车。据统计，骑自行车出行的人数每年都在稳定增加。",
+          "questions": [
+            {
+              "id": "hsk-q4",
+              "number": 4,
+              "type": "hsk_reading_comprehension",
+              "prompt": "共享单车解决了什么交通问题？(Xe đạp chia sẻ giải quyết vấn đề giao thông gì?)",
+              "promptVi": "Xe đạp chia sẻ giải quyết được vấn đề nào trong giao thông?",
+              "options": [
+                { "key": "A", "text": "买车太贵 (Mua xe quá đắt)", "textVi": "Mua xe quá đắt đỏ" },
+                { "key": "B", "text": "'最后一公里'的交通难题 (Bài toán giao thông 'chặng cuối cùng')", "textVi": "Vấn đề chặng cuối cùng" },
+                { "key": "C", "text": "停车费太高 (Phí đỗ xe quá cao)", "textVi": "Phí gửi xe cao" },
+                { "key": "D", "text": "油价上涨 (Giá xăng tăng)", "textVi": "Giá xăng tăng" }
+              ],
+              "correctAnswer": "B",
+              "acceptedAnswers": ["B"],
+              "explanation": "短文写道: '解决了\"最后一公里\"的交通难题' -> Giải quyết bài toán chặng cuối cùng.",
+              "explanationVi": "Dẫn chứng: '解决了\"最后一公里\"的交通难题'.",
+              "evidenceText": "解决了'最后一公里'的交通难题",
+              "evidenceParagraph": "Passage Line 2"
+            },
+            {
+              "id": "hsk-q5",
+              "number": 5,
+              "type": "hsk_reading_comprehension",
+              "prompt": "根据短文，现在谁也开始学会骑共享单车了？(Theo bài viết, ai hiện nay cũng bắt đầu học đi xe đạp chia sẻ?)",
+              "promptVi": "Theo bài đọc, đối tượng nào hiện nay cũng bắt đầu học quét mã đi xe?",
+              "options": [
+                { "key": "A", "text": "外国游客 (Khách du lịch nước ngoài)", "textVi": "Khách du lịch nước ngoài" },
+                { "key": "B", "text": "小学生 (Học sinh tiểu học)", "textVi": "Học sinh tiểu học" },
+                { "key": "C", "text": "很多老人 (Nhiều người lớn tuổi)", "textVi": "Nhiều người cao tuổi" },
+                { "key": "D", "text": "出租车司机 (Tài xế taxi)", "textVi": "Tài xế taxi" }
+              ],
+              "correctAnswer": "C",
+              "acceptedAnswers": ["C"],
+              "explanation": "文章最后写道: '不仅是年轻人，很多老人也开始学会用手机扫码骑车。'",
+              "explanationVi": "Dẫn chứng: '不仅是年轻人，很多老人也开始学会用手机扫码骑车。' -> Nhiều người già (很多老人).",
+              "evidenceText": "不仅是年轻人，很多老人也开始学会用手机扫码骑车。",
+              "evidenceParagraph": "Passage Line 4"
+            },
+            {
+              "id": "hsk-q6",
+              "number": 6,
+              "type": "hsk_sentence_reorder",
+              "prompt": "排列顺序 (Sắp xếp từ ngữ thành câu hoàn chỉnh HSK 4):",
+              "promptVi": "Sắp xếp các từ ngữ sau thành câu ngữ pháp HSK 4 chính xác:",
+              "reorderTokens": ["请您", "把", "这份文件", "打印三份"],
+              "correctAnswer": "请您 把 这份文件 打印三份",
+              "acceptedAnswers": ["请您 把 这份文件 打印三份", "请您把这份文件打印三份"],
+              "explanation": "Cấu trúc câu chữ '把' (把字句) kinh điển của HSK 4: Chủ ngữ (请您) + 把 + Tân ngữ (这份文件) + Động từ (打印) + Bổ ngữ (三份). Nghĩa: 'Xin phiền ngài in tài liệu này thành 3 bản'.",
+              "explanationVi": "Cấu trúc chuẩn HSK 4: Chủ ngữ + 把 + Tân ngữ + Động từ + Bổ ngữ -> '请您 把 这份文件 打印三份'."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

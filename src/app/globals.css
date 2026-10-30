@@ -1,0 +1,208 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: var(--font-inter), 'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+@layer base {
+  :root {
+    --bg-page: #FBF9F5;
+    --bg-card: #FFFFFF;
+    --bg-card-hover: #F8F6F0;
+    --border-color: #E8E3D7;
+    --border-color-light: #F2EFEB;
+    --text-primary: #1C1917;
+    --text-secondary: #78716C;
+    --text-muted: #A8A29E;
+    
+    --brand-primary: #6366F1;
+    --brand-primary-hover: #4F46E5;
+    --brand-secondary: #0D9488;
+    --brand-secondary-hover: #0F766E;
+    --brand-accent: #F59E0B;
+    
+    --ielts-color: #3B82F6;
+    --hsk-color: #EF4444;
+  }
+
+  .dark {
+    --bg-page: #0B1120;
+    --bg-card: #141E33;
+    --bg-card-hover: #1A2642;
+    --border-color: #24324D;
+    --border-color-light: #1E2B45;
+    --text-primary: #F8FAFC;
+    --text-secondary: #94A3B8;
+    --text-muted: #64748B;
+    
+    --brand-primary: #818CF8;
+    --brand-primary-hover: #6366F1;
+    --brand-secondary: #14B8A6;
+    --brand-secondary-hover: #0D9488;
+    --brand-accent: #FBBF24;
+  }
+}
+
+body {
+  background-color: var(--bg-page);
+  color: var(--text-primary);
+  font-family: var(--font-inter), 'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', Arial, sans-serif;
+  min-height: 100vh;
+  overflow-x: hidden;
+  transition: background-color 0.25s ease, color 0.25s ease;
+  letter-spacing: -0.01em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(168, 162, 158, 0.3);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(168, 162, 158, 0.6);
+}
+
+/* Card glassmorphism and soft shadows */
+.card-soft {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.03), 0 2px 6px -1px rgba(0, 0, 0, 0.02);
+}
+
+.card-soft-hover {
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.2s ease;
+}
+.card-soft-hover:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px -4px rgba(0, 0, 0, 0.08), 0 4px 10px -2px rgba(0, 0, 0, 0.04);
+}
+
+/* Audio waveform animation */
+@keyframes wave-bounce {
+  0%, 100% { height: 6px; }
+  50% { height: 28px; }
+}
+
+.animate-wave-1 { animation: wave-bounce 1.1s ease-in-out infinite; }
+.animate-wave-2 { animation: wave-bounce 0.8s ease-in-out infinite 0.2s; }
+.animate-wave-3 { animation: wave-bounce 1.3s ease-in-out infinite 0.4s; }
+.animate-wave-4 { animation: wave-bounce 0.9s ease-in-out infinite 0.1s; }
+.animate-wave-5 { animation: wave-bounce 1.2s ease-in-out infinite 0.3s; }
+
+/* Subtle pulse for active items */
+@keyframes soft-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.6; }
+}
+.animate-soft-pulse {
+  animation: soft-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Gentle floating animation for mascots & badges */
+@keyframes float-slow {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-7px); }
+}
+.animate-float-slow {
+  animation: float-slow 3s ease-in-out infinite;
+}
+
+@keyframes float-medium {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-4px); }
+}
+.animate-float-medium {
+  animation: float-medium 2.2s ease-in-out infinite;
+}
+
+/* Gentle bounce for pointers & badges */
+@keyframes bounce-subtle {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}
+.animate-bounce-subtle {
+  animation: bounce-subtle 1.4s ease-in-out infinite;
+}
+
+/* Glowing aura pulse for active roadmap nodes */
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(88, 204, 2, 0.65), 0 4px 12px rgba(88, 204, 2, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 0 14px rgba(88, 204, 2, 0), 0 8px 24px rgba(88, 204, 2, 0.45);
+  }
+}
+.animate-pulse-glow {
+  animation: pulse-glow 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Bouncy pop-in for modal dialogs & reward popovers */
+@keyframes pop-in {
+  0% { transform: scale(0.92); opacity: 0; }
+  60% { transform: scale(1.02); }
+  100% { transform: scale(1); opacity: 1; }
+}
+.animate-pop-in {
+  animation: pop-in 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Playful wiggle animation for treasure chests */
+@keyframes wiggle {
+  0%, 100% { transform: rotate(0deg); }
+  20% { transform: rotate(-8deg); }
+  40% { transform: rotate(8deg); }
+  60% { transform: rotate(-5deg); }
+  80% { transform: rotate(5deg); }
+}
+.hover-wiggle:hover {
+  animation: wiggle 0.6s ease-in-out;
+}
+
+/* Flowing dash animation along SVG road */
+@keyframes road-flow {
+  0% { stroke-dashoffset: 0; }
+  100% { stroke-dashoffset: -28; }
+}
+.animate-road-flow {
+  animation: road-flow 2s linear infinite;
+}
+
+/* Shimmer reflection highlight */
+@keyframes shimmer {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(200%); }
+}
+.animate-shimmer {
+  animation: shimmer 2.5s infinite;
+}
+
+/* Subtle flame flicker for streak flame */
+@keyframes flame-flicker {
+  0%, 100% { transform: scale(1); filter: brightness(1); }
+  50% { transform: scale(1.1) rotate(-3deg); filter: brightness(1.15); }
+}
+.animate-flame {
+  animation: flame-flicker 1.8s ease-in-out infinite;
+}
+
+/* Fade in up for page sections */
+@keyframes fade-in-up {
+  0% { opacity: 0; transform: translateY(8px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-in-up {
+  animation: fade-in-up 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+

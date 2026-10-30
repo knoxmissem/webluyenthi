@@ -1,0 +1,277 @@
+{
+  "miniMocks": [
+    {
+      "id": "ielts-mini-lis-01",
+      "track": "ielts",
+      "title": "IELTS Listening Mini-Mock: City Art Center Tour & Map Labeling",
+      "titleVi": "Bài thi nhỏ Nghe IELTS: Bản đồ Trung tâm Nghệ thuật Thành phố",
+      "level": "Band 6.5 - 7.5",
+      "type": "academic",
+      "durationMinutes": 15,
+      "totalQuestions": 6,
+      "isMiniMock": true,
+      "isOfficialSimulation": false,
+      "syllabusVersion": "cambridge",
+      "sections": [
+        {
+          "id": "sec-mini-lis-01",
+          "skill": "listening",
+          "title": "Listening Part 2: Victoria Arts Center Facilities",
+          "titleVi": "Phần Nghe Part 2: Bản đồ Cơ sở vật chất Trung tâm Nghệ thuật Victoria",
+          "instructions": "Listen to the guide and complete Questions 1-6. For Questions 1-3, complete the sentences with NO MORE THAN TWO WORDS. For Questions 4-6, choose the correct letter A-D.",
+          "instructionsVi": "Nghe người hướng dẫn và trả lời câu 1-6.",
+          "audioUrl": "/audio/ielts_mini_lis_01.mp3",
+          "audioText": "Good afternoon everyone and welcome to the Victoria Arts Center. Before our private guided tour commences, allow me to brief you on our primary amenities. The main foyer has been recently refurbished with an interactive digital kiosk where you can reserve performance tickets or review schedule updates. If you require audio headsets for simultaneous interpretation, those can be checked out from the information counter just beside the central fountain. As you proceed down the North Gallery, you will notice the contemporary sculpture exhibition on your left. Directly opposite that, on your right, is the archival reading room which houses manuscripts dating back to the eighteenth century. For refreshments, the rooftop terrace café provides panoramic views of the harbor and operates until 10:30 PM. Please be advised that flash photography is prohibited in all galleries to prevent pigment degradation of fragile canvases. Enjoy your afternoon!",
+          "audioSourceType": "tts",
+          "audioDurationSeconds": 110,
+          "playbackPolicy": "flexible",
+          "questions": [
+            {
+              "id": "mini-l-q1",
+              "number": 1,
+              "type": "sentence_completion",
+              "prompt": "Visitors can check schedule updates at an interactive _____ located in the main foyer.",
+              "promptVi": "Khách tham quan có thể xem lịch trình tại một _____ tương tác ở sảnh chính.",
+              "correctAnswer": "digital kiosk",
+              "acceptedAnswers": ["digital kiosk", "kiosk"],
+              "wordLimit": 2,
+              "explanation": "The guide says: 'The main foyer has been recently refurbished with an interactive digital kiosk where you can reserve performance tickets or review schedule updates.'",
+              "explanationVi": "Dẫn chứng: 'The main foyer has been recently refurbished with an interactive digital kiosk...'",
+              "evidenceText": "The main foyer has been recently refurbished with an interactive digital kiosk where you can reserve performance tickets or review schedule updates.",
+              "evidenceParagraph": "Audio Transcript Line 3"
+            },
+            {
+              "id": "mini-l-q2",
+              "number": 2,
+              "type": "sentence_completion",
+              "prompt": "Interpretation audio headsets are obtained from the counter next to the _____.",
+              "promptVi": "Tai nghe phiên dịch được nhận tại quầy cạnh _____.",
+              "correctAnswer": "central fountain",
+              "acceptedAnswers": ["central fountain", "fountain"],
+              "wordLimit": 2,
+              "explanation": "Guide notes: 'audio headsets for simultaneous interpretation... can be checked out from the information counter just beside the central fountain.'",
+              "explanationVi": "Dẫn chứng: '...just beside the central fountain.' (ngay cạnh đài phun nước trung tâm).",
+              "evidenceText": "those can be checked out from the information counter just beside the central fountain.",
+              "evidenceParagraph": "Audio Transcript Line 4"
+            },
+            {
+              "id": "mini-l-q3",
+              "number": 3,
+              "type": "mcq",
+              "prompt": "Where is the archival reading room located relative to the contemporary sculpture exhibition?",
+              "promptVi": "Phòng đọc tư liệu lưu trữ nằm ở vị trí nào so với khu triển lãm điêu khắc đương đại?",
+              "options": [
+                { "key": "A", "text": "Directly opposite it on the right", "textVi": "Ngay đối diện ở phía bên phải" },
+                { "key": "B", "text": "On the rooftop level next to the café", "textVi": "Trên tầng thượng cạnh quán cà phê" },
+                { "key": "C", "text": "Behind the central fountain", "textVi": "Phía sau đài phun nước trung tâm" },
+                { "key": "D", "text": "Inside the ticket reservation kiosk", "textVi": "Bên trong quầy kiosk đặt vé" }
+              ],
+              "correctAnswer": "A",
+              "acceptedAnswers": ["A"],
+              "explanation": "The guide explicitly explains: 'Directly opposite that, on your right, is the archival reading room...'",
+              "explanationVi": "Hướng dẫn viên chỉ rõ: 'Directly opposite that, on your right, is the archival reading room...'",
+              "evidenceText": "contemporary sculpture exhibition on your left. Directly opposite that, on your right, is the archival reading room",
+              "evidenceParagraph": "Audio Transcript Line 5"
+            },
+            {
+              "id": "mini-l-q4",
+              "number": 4,
+              "type": "sentence_completion",
+              "prompt": "The rooftop terrace café remains open until _____ PM.",
+              "promptVi": "Quán cà phê sân thượng mở cửa phục vụ đến _____ tối.",
+              "correctAnswer": "10:30",
+              "acceptedAnswers": ["10:30", "10.30", "10:30 pm"],
+              "wordLimit": 1,
+              "explanation": "Guide informs: 'the rooftop terrace café provides panoramic views of the harbor and operates until 10:30 PM.'",
+              "explanationVi": "Dẫn chứng: '...operates until 10:30 PM.' (mở cửa đến 10:30 tối).",
+              "evidenceText": "the rooftop terrace café provides panoramic views of the harbor and operates until 10:30 PM.",
+              "evidenceParagraph": "Audio Transcript Line 6"
+            },
+            {
+              "id": "mini-l-q5",
+              "number": 5,
+              "type": "mcq",
+              "prompt": "Why is flash photography prohibited throughout the galleries?",
+              "promptVi": "Tại sao việc chụp ảnh có đèn flash bị cấm trong toàn bộ các phòng tranh?",
+              "options": [
+                { "key": "A", "text": "To prevent disturbing fellow attendees during performances", "textVi": "Để tránh làm phiền người xem khác trong lúc biểu diễn" },
+                { "key": "B", "text": "To prevent pigment degradation of fragile canvases", "textVi": "Để ngăn chặn hiện tượng phai nhạt sắc tố màu của tranh cổ" },
+                { "key": "C", "text": "Because digital cameras interfere with wireless audio transmitters", "textVi": "Vì máy ảnh gây nhiễu sóng bộ phát âm thanh" },
+                { "key": "D", "text": "To comply with national copyright licensing restrictions", "textVi": "Để tuân thủ bản quyền triển lãm" }
+              ],
+              "correctAnswer": "B",
+              "acceptedAnswers": ["B"],
+              "explanation": "The guide cautions: 'flash photography is prohibited in all galleries to prevent pigment degradation of fragile canvases.'",
+              "explanationVi": "Dẫn chứng: '...to prevent pigment degradation of fragile canvases' (ngăn thoái hóa sắc tố trên tranh vẽ mong manh).",
+              "evidenceText": "flash photography is prohibited in all galleries to prevent pigment degradation of fragile canvases.",
+              "evidenceParagraph": "Audio Transcript Line 7"
+            },
+            {
+              "id": "mini-l-q6",
+              "number": 6,
+              "type": "tfng",
+              "prompt": "The manuscripts stored in the archival reading room date back to the 19th century.",
+              "promptVi": "Các bản thảo cổ được lưu giữ tại phòng đọc có niên đại từ thế kỷ 19.",
+              "options": [
+                { "key": "TRUE", "text": "TRUE" },
+                { "key": "FALSE", "text": "FALSE" },
+                { "key": "NOT GIVEN", "text": "NOT GIVEN" }
+              ],
+              "correctAnswer": "FALSE",
+              "acceptedAnswers": ["FALSE"],
+              "explanation": "The audio states they date back to the 'eighteenth century' (18th century), NOT the 19th century.",
+              "explanationVi": "Bài nghe nói rõ niên đại là thế kỷ 18 (eighteenth century), mâu thuẫn với nhận định '19th century' -> FALSE.",
+              "evidenceText": "houses manuscripts dating back to the eighteenth century.",
+              "evidenceParagraph": "Audio Transcript Line 5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ielts-mini-read-01",
+      "track": "ielts",
+      "title": "IELTS Reading Mini-Mock: The Architecture of Memory Consolidation",
+      "titleVi": "Bài thi nhỏ Đọc IELTS: Cơ Chế Củng Cố Ký Ức Não Bộ",
+      "level": "Band 7.0 - 8.5",
+      "type": "academic",
+      "durationMinutes": 20,
+      "totalQuestions": 5,
+      "isMiniMock": true,
+      "isOfficialSimulation": false,
+      "syllabusVersion": "cambridge",
+      "sections": [
+        {
+          "id": "sec-mini-read-01",
+          "skill": "reading",
+          "title": "Reading: Neural Mechanisms of Long-Term Memory Storage",
+          "titleVi": "Đọc hiểu: Cơ chế nơ-ron lưu trữ ký ức dài hạn",
+          "instructions": "Read the text and answer Questions 1-5.",
+          "instructionsVi": "Đọc văn bản và trả lời câu hỏi 1-5.",
+          "passageTitle": "Synaptic Plasticity and Sleep-Dependent Memory Consolidation",
+          "passageTitleVi": "Tính Dẻo Khớp Thần Kinh và Quá Trình Củng Cố Ký Ức Trong Giấc Ngủ",
+          "passageText": "Paragraph 1: For over a century, neuroscientists debated how fleeting experiential impressions are converted into permanent biological traces. The prevailing two-stage model posits that new declarative information is initially encoded within the fragile circuitry of the hippocampus. Over subsequent hours, and particularly during slow-wave non-rapid eye movement (NREM) sleep, coordinated electrophysiological oscillations—specifically cortical slow oscillations, thalamocortical sleep spindles, and hippocampal sharp-wave ripples—orchestrate the systematic transfer of representations from the temporary hippocampal repository into the neocortex for indefinite consolidation.\n\nParagraph 2: Disruption of this nocturnal tri-coupling rhythm precipitates marked cognitive deficits. Experimental paradigms utilizing targeted memory reactivation (TMR) demonstrate that delivering subtle acoustic sensory cues during slow-wave sleep can selectively enhance memory recall the following morning. Conversely, chronic sleep deprivation degrades synaptic density and impedes the brain's glymphatic clearance mechanism, allowing metabolic waste products such as beta-amyloid proteins to accumulate, thereby elevating long-term vulnerability to neurodegenerative pathologies.",
+          "questions": [
+            {
+              "id": "mini-r-q1",
+              "number": 1,
+              "type": "ynng",
+              "prompt": "Declarative memories are permanently housed within the hippocampus throughout a person's lifespan.",
+              "promptVi": "Ký ức tường thuật được lưu trữ vĩnh viễn bên trong hồi hải mã (hippocampus) suốt cả cuộc đời con người.",
+              "options": [
+                { "key": "YES", "text": "YES" },
+                { "key": "NO", "text": "NO" },
+                { "key": "NOT GIVEN", "text": "NOT GIVEN" }
+              ],
+              "correctAnswer": "NO",
+              "acceptedAnswers": ["NO"],
+              "explanation": "Paragraph 1 states that the hippocampus is a 'temporary hippocampal repository' and memories are transferred into the 'neocortex for indefinite consolidation'. Thus, they are NOT permanently housed in the hippocampus.",
+              "explanationVi": "Đoạn 1 nêu rõ hồi hải mã chỉ là nơi lưu trữ tạm thời ('temporary hippocampal repository'), ký ức sau đó được chuyển sang vỏ não ('neocortex') để củng cố vĩnh viễn. Nhận định mâu thuẫn với quan điểm bài viết -> NO.",
+              "evidenceText": "transfer of representations from the temporary hippocampal repository into the neocortex for indefinite consolidation.",
+              "evidenceParagraph": "Paragraph 1"
+            },
+            {
+              "id": "mini-r-q2",
+              "number": 2,
+              "type": "sentence_completion",
+              "prompt": "Long-term memory transfer occurs predominantly during _____ sleep.",
+              "promptVi": "Quá trình chuyển ký ức dài hạn diễn ra chủ yếu trong giấc ngủ _____.",
+              "correctAnswer": "slow-wave",
+              "acceptedAnswers": ["slow-wave", "nrem", "slow-wave nrem", "slow wave"],
+              "wordLimit": 2,
+              "explanation": "Paragraph 1 states: 'particularly during slow-wave non-rapid eye movement (NREM) sleep... orchestrate the systematic transfer'.",
+              "explanationVi": "Dẫn chứng: 'particularly during slow-wave non-rapid eye movement (NREM) sleep...'",
+              "evidenceText": "particularly during slow-wave non-rapid eye movement (NREM) sleep, coordinated electrophysiological oscillations... orchestrate the systematic transfer",
+              "evidenceParagraph": "Paragraph 1"
+            },
+            {
+              "id": "mini-r-q3",
+              "number": 3,
+              "type": "short_answer",
+              "prompt": "What experimental technique delivers sensory cues during sleep to boost recall?",
+              "promptVi": "Kỹ thuật thực nghiệm nào truyền tín hiệu cảm giác trong giấc ngủ để tăng cường khả năng nhớ lại?",
+              "correctAnswer": "targeted memory reactivation",
+              "acceptedAnswers": ["targeted memory reactivation", "tmr"],
+              "wordLimit": 3,
+              "explanation": "Paragraph 2 identifies: 'Experimental paradigms utilizing targeted memory reactivation (TMR) demonstrate that delivering subtle acoustic sensory cues...'",
+              "explanationVi": "Dẫn chứng: 'utilizing targeted memory reactivation (TMR)...'",
+              "evidenceText": "Experimental paradigms utilizing targeted memory reactivation (TMR) demonstrate that delivering subtle acoustic sensory cues during slow-wave sleep can selectively enhance memory recall",
+              "evidenceParagraph": "Paragraph 2"
+            },
+            {
+              "id": "mini-r-q4",
+              "number": 4,
+              "type": "mcq",
+              "prompt": "According to Paragraph 2, chronic sleep deprivation impedes what physiological process?",
+              "promptVi": "Theo Đoạn 2, thiếu ngủ mãn tính làm cản trở quá trình sinh lý nào?",
+              "options": [
+                { "key": "A", "text": "Cardiac systolic contraction", "textVi": "Co bóp tâm thu tim" },
+                { "key": "B", "text": "The glymphatic clearance mechanism of metabolic waste", "textVi": "Cơ chế dọn dẹp chất thải chuyển hóa của hệ glymphatic" },
+                { "key": "C", "text": "Pulmonary gas exchange", "textVi": "Trao đổi khí ở phổi" },
+                { "key": "D", "text": "Adrenaline secretion by adrenal glands", "textVi": "Tiết adrenaline" }
+              ],
+              "correctAnswer": "B",
+              "acceptedAnswers": ["B"],
+              "explanation": "Paragraph 2 states: 'impedes the brain's glymphatic clearance mechanism, allowing metabolic waste products such as beta-amyloid proteins to accumulate'.",
+              "explanationVi": "Dẫn chứng trực tiếp: 'impedes the brain's glymphatic clearance mechanism...'",
+              "evidenceText": "impedes the brain's glymphatic clearance mechanism, allowing metabolic waste products such as beta-amyloid proteins to accumulate",
+              "evidenceParagraph": "Paragraph 2"
+            },
+            {
+              "id": "mini-r-q5",
+              "number": 5,
+              "type": "sentence_completion",
+              "prompt": "Sleep deprivation allows toxic _____ proteins to accumulate in brain tissue.",
+              "promptVi": "Thiếu ngủ khiến các protein _____ độc hại tích tụ trong mô não.",
+              "correctAnswer": "beta-amyloid",
+              "acceptedAnswers": ["beta-amyloid", "beta amyloid"],
+              "wordLimit": 1,
+              "explanation": "Paragraph 2 mentions: 'allowing metabolic waste products such as beta-amyloid proteins to accumulate'.",
+              "explanationVi": "Dẫn chứng: 'such as beta-amyloid proteins to accumulate'.",
+              "evidenceText": "allowing metabolic waste products such as beta-amyloid proteins to accumulate",
+              "evidenceParagraph": "Paragraph 2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ielts-mini-wri-01",
+      "track": "ielts",
+      "title": "IELTS Writing Task 1 Academic: Global Renewable Electricity Shares",
+      "titleVi": "Bài thi nhỏ Viết Task 1: Tỷ Trọng Điện Tái Tạo Toàn Cầu (Biểu Đồ Cột)",
+      "level": "Band 6.0 - 8.5",
+      "type": "academic",
+      "durationMinutes": 20,
+      "totalQuestions": 1,
+      "isMiniMock": true,
+      "isOfficialSimulation": false,
+      "syllabusVersion": "cambridge",
+      "sections": [
+        {
+          "id": "sec-mini-wri-01",
+          "skill": "writing",
+          "title": "Writing Task 1 Academic: Bar Chart Report",
+          "titleVi": "Viết Task 1: Báo cáo số liệu biểu đồ cột",
+          "instructions": "You should spend about 20 minutes on this task. The chart below shows the percentage of electricity generated from renewable sources in four countries between 2010 and 2020. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.",
+          "instructionsVi": "Dành 20 phút. Tóm tắt thông tin bằng cách chọn lọc và báo cáo các đặc điểm chính, thực hiện so sánh đối chiếu. Viết tối thiểu 150 từ.",
+          "taskType": "task1_academic",
+          "chartImageUrl": "/images/task1_renewable_chart.svg",
+          "questions": [
+            {
+              "id": "mini-w-q1",
+              "number": 1,
+              "type": "writing_academic_task1",
+              "prompt": "The bar chart illustrates the proportion of national electricity produced from renewable energy sources (hydro, wind, solar) across Germany, Norway, Japan, and Australia in three years: 2010, 2015, and 2020. Summarise the main trends and make comparisons where relevant.",
+              "promptVi": "Biểu đồ cột minh họa tỷ lệ sản xuất điện từ năng lượng tái tạo tại 4 quốc gia trong các năm 2010, 2015 và 2020.",
+              "correctAnswer": "SAMPLE_TASK1_EVALUATION",
+              "wordCountTarget": 150,
+              "explanation": "A high-scoring Task 1 response requires: (1) Paraphrased introduction, (2) Clear 2-sentence Overview identifying Norway's undisputed dominance (near 98%) and Germany's dramatic upward trajectory (quadrupling), (3) Body 1 detailing Norway and Germany, (4) Body 2 detailing Japan and Australia with specific percentage figures.",
+              "explanationVi": "Bài viết Task 1 chuẩn Band 8.0: Cần có Introduction diễn đạt lại câu hỏi, Overview nêu bật Na Uy áp đảo và Đức tăng trưởng mạnh nhất, Thân bài 1 so sánh Na Uy và Đức, Thân bài 2 phân tích Nhật Bản và Úc kèm số liệu chính xác."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
